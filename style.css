@@ -171,9 +171,10 @@ h1 {
 .product-container {
     flex: 0 0 calc((100vw / 7) - 10px);
     margin: 1rem 1rem;
-    height: 15rem;
+    height: 16rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
+    
     flex-direction: column;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -182,8 +183,10 @@ h1 {
 /* Product Images */
 .dairyproductcontainer img,
 .product-container img {
-    width: 100%; /* Adjusted to ensure images fit within container */
+    width: 80%; /* Adjusted to ensure images fit within container */
     height: auto; /* Maintain aspect ratio */
+    margin-top:0.5rem;
+    margin-left:1.3rem;
     object-fit: cover; /* Cover the entire container area without distortion */
 }
 
@@ -407,10 +410,7 @@ footer .socials i.fab:hover {
 .cart-section-main.active{
     right:0rem;
 }
-#exit-icon{
-    font-size:1.2rem;
-    margin:1rem;
-}
+
 .cart-section-main{
     position: fixed;
     right: -50rem;
@@ -421,6 +421,7 @@ footer .socials i.fab:hover {
     max-height: 100vh; /* Full viewport height */
     border: 1px solid;
     overflow:scroll;
+    transition: right 0.3s ease;
     
 }
 .product-quantity {
@@ -450,4 +451,71 @@ footer .socials i.fab:hover {
     font-weight: bold; /* Make number bold */
     text-align: center; /* Center align text */
     min-width: 1.5rem; /* Minimum width for number */
+}
+.exit-cart{
+    display:flex;
+    justify-content:space-between;
+    margin:1rem;
+}
+#exit-icon{
+    font-size:1.2rem;
+    margin-right:1rem;
+}
+.cart-heading{
+    font-size:1.3rem;
+    font-weight:700;
+}
+.cart-feuture{
+  
+    font-size:1.2rem;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width:60%;
+    height:3rem;
+    /* Apply border-radius to the left side only */
+/* Apply border-radius to the left side only */
+
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    /* Optional additional styling */
+
+
+
+    background-color:lightgreen;
+   
+ 
+}
+#clock-icon{
+    font-size:1.2rem;
+    margin-right:1rem;
+  margin-left:1rem;
+    margin-top:0.7rem;
+}
+.cart-total{
+    height:50%;
+    margin-top:2rem;
+ margin-left:3rem;
+   margin-bottom:2rem;
+   width:80%;
+   
+    border-radius:8px;
+       box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+.cart-total-title{
+   font-size:1.1rem;
+    font-weight:700;
+   margin:1rem 0.5rem;
+}
+.cart-total-price,.cart-total-delivery-charges,.cart-total-handling{
+    margin:1rem;
+}
+#receipt-icon,#bag-icon{
+     margin-right:0.5rem;
+}
+#motorcycle-icon{
+     margin-right:0.1rem;
+}
+.cart-total-total{
+    font-size:1.1rem;
+    font-weight:800;
+    margin:0rem 1rem;
 }
