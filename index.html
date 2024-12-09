@@ -16,7 +16,7 @@
     <header class="header">
         <div class="top-navbar">
             <div class="logo">
-                <p class="logo-text">Blinkit</p>
+                <p class="logo-img"><img src="images/LOGOMAIN.png" class="logopng-main"></p>
             </div>
             <form class="location-form">
 
@@ -25,13 +25,25 @@
 
             <div class="login-cart-btn">
                 <button id="login-btn">Login</button>
-                <div class="cart-btn">
+                <div class="cart-btn" id="cart-btn">
                     <i class="fas fa-shopping-cart" id="cart-icon"></i> <span class="cart-count">0</span>
                 </div>
             </div>
-        </div>
 
+
+
+        </div>
     </header>
+    <section class="cart-section">
+        <div class="cart-section-main" id="cart-section-main">
+
+            <div class="exit-cart" id="exit-cart"><i class="fas fa-times" id="exit-icon"></i></div>
+            <div class="cart-product-container" id="cart-product-container">
+        </div>
+          
+        </div>
+    </section>
+   
     <section class="head-banner">
 
         <div class="banner">
@@ -45,32 +57,98 @@
             </div>
         </div>
     </section>
-<section class="products-category">
-    <div class="category-images">
+    <section class="login-container-main">
+        <div class="login-container" id="login-container">
+            <div class="login-form">
+                <div class="arrow" id="arrow-exit"> <i class="fas fa-arrow-left"></i></div>
+                <p class="login-logo"><img src="images/LOGOMAIN.png" class="logopng"></p>
+                <p class="login-title">your last minute friend</p>
+                <p class="login-subtitle">Login/Signup</p>
 
-        <img src="images/dairyproduct.avif" alt="">
-        <img src="images/cookies.webp" alt="">
-        <img src="images/snacks.avif" alt="">
-        <img src="images/ice-creame.webp" alt="">
-        <img src="images/tea-coffee.avif" alt="">
-        <img src="images/babyproduct.webp" alt="">
-        <img src="images/petfood.avif" alt="">
-        <img src="images/body-care.webp"alt="">
-        <img src="images/cold drink.avif" alt="">
-    
-      
-    </div>
+                <input type="number" id="number" name="number" placeholder="Enter your mobile number" required><br>
 
-</section>
-<h1>Dairyproduct</h1>
-<div class="product-list-container" id="product-list-container"></div>
-<h2>Tea & Coffee</h2>
-<div class="product-list-container3" id="product-list-container3"></div>
-<h3>Biscuits</h3>
-<div class="product-list-container1" id="product-list-container1"></div>
-<h4>Chips</h4>
-<div class="product-list-container2" id="product-list-container2"></div>
+
+                <button type="submit" id="btn-continue">Continue</button>
+            </div>
+        </div>
+    </section>
+    <section class="products-category">
+        <div class="category-images">
+
+            <img src="images/dairyproduct.avif" alt="">
+            <img src="images/cookies.webp" alt="">
+            <img src="images/snacks.avif" alt="">
+            <img src="images/ice-creame.webp" alt="">
+            <img src="images/tea-coffee.avif" alt="">
+            <img src="images/babyproduct.webp" alt="">
+            <img src="images/petfood.avif" alt="">
+            <img src="images/body-care.webp" alt="">
+            <img src="images/cold drink.avif" alt="">
+
+
+        </div>
+
+    </section>
+    <section class="products">
+        <h1>Dairyproduct</h1>
+        <div class="product-list-container" id="product-list-container"></div>
+        <h2>Tea & Coffee</h2>
+        <div class="product-list-container3" id="product-list-container3"></div>
+        <h3>Biscuits</h3>
+        <div class="product-list-container1" id="product-list-container1"></div>
+        <h4>Chips</h4>
+        <div class="product-list-container2" id="product-list-container2"></div>
+    </section>
+    <footer>
+        <div class="links">
+            <div class="link-container">
+                <div class="download-options">
+                    <p class="link-header">Download App</p>
+                    <div class="download-btns">
+                        <i class="fab fa-google-play" id="googleplay"></i>
+                        <i class="fab fa-apple" id="apple"></i>
+                    </div>
+                    <div class="socials-links">
+                        <div class="socials">
+                            <p class="socials-header">Follow us on</p>
+                            <i class="fab fa-facebook-f icons"></i>
+                            <i class="fab fa-instagram icons"></i>
+                            <i class="fab fa-twitter icons"></i>
+                            <i class="fab fa-youtube icons"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="link-container useful-links">
+                <p class="link-header">Useful Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="helpcare.html">Help</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="link-container1">
+                <p class="link-header">Categories</p>
+                <nav>
+                    <ul>
+                        <li><a href="dairyproduct.html">Dairy Product</a></li>
+                        <li><a href="teaandcoffee.html">Tea & Coffee</a></li>
+                        <li><a href="biscuits.html">Biscuits</a></li>
+                        <li><a href="chips.html">Chips</a></li>
+                        <li><a href="ice-cream.html">Ice Cream</a></li>
+                        <li><a href="colddrink.html">Cold Drink</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    </footer>
     <script src="product-listing.js"></script>
+    <script src="product-details.js"></script>
     <script src="script.js"></script>
 </body>
 

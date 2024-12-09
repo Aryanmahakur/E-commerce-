@@ -24,6 +24,10 @@ product.subimage.forEach((image,index) => {
      imgelement.classList.add("sub-image");
      imgelement.id = `subimage-${index + 1}`;
      subimages.appendChild(imgelement);
+     localStorage.clear();
+     console.log("All local storage data cleared.");
+     
+
 });
 // Get the main image element
 const mainimage = document.getElementById("product-image");
