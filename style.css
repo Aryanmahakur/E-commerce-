@@ -38,7 +38,7 @@ body {
 /* Search Box Styling */
 #Search {
     width: 30rem;
-    height: 1.7rem;
+    height: 2.5rem;
     padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -171,7 +171,7 @@ h1 {
 .product-container {
     flex: 0 0 calc((100vw / 7) - 10px);
     margin: 1rem 1rem;
-    height: 16rem;
+    max-height: 16rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
     
@@ -186,6 +186,7 @@ h1 {
     width: 80%; /* Adjusted to ensure images fit within container */
     height: auto; /* Maintain aspect ratio */
     margin-top:0.5rem;
+    margin-bottom:1rem;
     margin-left:1.3rem;
     object-fit: cover; /* Cover the entire container area without distortion */
 }
@@ -199,8 +200,17 @@ h1 {
 }
 
 .name {
-    margin-top: 0.8rem;
+    font-size: 0.9rem;
+    margin:1rem 0.1rem 0rem rem;
+    line-height: 1.2em;
+    height: 2.4em; /* Height to fit two lines */
+margin-right:1rem;
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflow text */
+    display: -webkit-box; /* Display as WebKit box */
+    -webkit-line-clamp: 2; /* Limit to two lines */
+    -webkit-box-orient: vertical; /* Set box orientation to vertical */
 }
+
 
 .quantity {
     margin: 0.4rem 0;
@@ -217,12 +227,14 @@ h1 {
 .price {
     display: flex;
     gap: 3rem;
+      margin-top:0.8rem;
 }
 
 /* Add to Cart Button */
 .add-to-cart {
     width: 40%;
     height: 2rem;
+  
     transform: translate(140%, -80%);
 }
 
@@ -465,7 +477,7 @@ footer .socials i.fab:hover {
     font-size:1.3rem;
     font-weight:700;
 }
-.cart-feuture{
+.cart-feature{
   
     font-size:1.2rem;
      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -491,11 +503,11 @@ footer .socials i.fab:hover {
     margin-top:0.7rem;
 }
 .cart-total{
-    height:50%;
+    max-height:50%;
     margin-top:2rem;
- margin-left:3rem;
+ margin-left:1.4rem;
    margin-bottom:2rem;
-   width:80%;
+   min-width:90%;
    
     border-radius:8px;
        box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
@@ -508,6 +520,7 @@ footer .socials i.fab:hover {
 .cart-total-price,.cart-total-delivery-charges,.cart-total-handling{
     margin:1rem;
 }
+
 #receipt-icon,#bag-icon{
      margin-right:0.5rem;
 }
@@ -515,7 +528,30 @@ footer .socials i.fab:hover {
      margin-right:0.1rem;
 }
 .cart-total-total{
-    font-size:1.1rem;
+    font-size:1.2rem;
     font-weight:800;
+    padding-bottom:0.5rem;
     margin:0rem 1rem;
+}
+#Handling-charges{
+    position:absolute;
+    right:10%;
+}
+#total-price,#final-price{
+    position:absolute;
+    right:10%;
+}
+#total-Delivery-charges{
+    position:absolute;
+    right:6%;
+}
+#exit-icon-all{
+    position:absolute;
+    right:5%;
+    margin:0.3rem 0rem;
+    
+}
+#rupee-icon{
+    font-size:0.9rem;
+    font-weight:600;
 }

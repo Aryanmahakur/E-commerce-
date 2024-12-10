@@ -8,6 +8,7 @@ function geturlparameter(name) {
 const productsid = geturlparameter('id');
 console.log("id: " + productsid);
 
+
 // Find the product with the matching 'id'
 const product = products.find(p => p.id === productsid);
 console.log("product id: ", product);
