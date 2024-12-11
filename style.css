@@ -18,6 +18,29 @@ body {
     top: 0rem;
     z-index: 1000;
 }
+.banner-main {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.banner-main {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+}
+
+.banner-image {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+   
+}
 
 .top-navbar {
     height: 4rem;
@@ -568,14 +591,35 @@ margin-left:5rem;
     font-size:0.9rem;
     font-weight:600;
 }
-#checkout-btn{
-    width:50%;
-    height:2.5rem;
-    border-radius:4px;
+.cart-checkout{
+    width:100%;
+    height:7rem;
+    border-top-left-radius:20px;
+     border-top-right-radius:20px;
     border:1px solid;
-    margin-bottom:1rem;
-    margin-top:1rem;
-    margin-left:25%;
+}
+.cart-checkout-main{
+    border:1px solid;
+    width:90%;
+    height:3rem;
+    margin:5%;
+    margin-top:6%;
+    display:flex;
+  align-items:center;
+}
+#rupee-icon{
+    font-size:1.2rem;
+    margin:0% 1%;
+}
+#final-amt{
+     font-size:1.2rem;
+    margin:0% 1%;
+}
+#checkout-btn{
+    position:absolute;
+    right:15%;
+    font-size:1.4rem;
+    border:none;
 }
 .working-details{
     margin-top:4rem;
@@ -618,3 +662,31 @@ transition: transform 0.3s  ;
 .working-details-subtitle{
     color:rgb(163, 163, 162);
 }
+.banner-mainn {
+    display: flex;
+    width: 80vw;
+    border: 1px solid;
+    margin: 2rem 10%;
+    overflow-x: hidden; /* Changed from scroll to hidden for smoother animation */
+    border-radius: 8px;
+    position: relative;
+}
+
+.banner-imagee {
+    width: 100%;
+
+    animation: scroll 2s linear infinite;
+    border-radius: 8px;
+    animation: speed-up-scroll 4s infinite;
+}
+@keyframes speed-up-scroll{
+    0% { 
+        transform: translateX(100%);
+}
+25% { transform: translateX(0);
+    }
+     50% { transform: translateX(0);
+         } 60% { transform: translateX(-100%); 
+               } 
+    100% { transform: translateX(-100%); 
+         }

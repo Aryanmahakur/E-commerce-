@@ -148,7 +148,6 @@ document.addEventListener("DOMContentLoaded", function () {
             document.getElementById(`quantity-increase-${item.id}`).addEventListener('click', () => {
                 let quantityElement = document.getElementById(`quantity-number-${item.id}`);
                 if(quantityElement.innerHTML < 10){
-
                     quantityElement.innerHTML++;
                 }
              
@@ -170,11 +169,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Remove the DOM element
                 document.getElementById(`remove-item-${item.id}`).closest('.cart-item').remove();
-
+               // cartcountcontainer = 0; // Reset cart count
+        
+              
+                    // Ensure the price is parsed correctly
+                    cartcountcontainer--;
+                    cartcount.innerHTML = cartcountcontainer;
+                    let price = parseFloat(item.price);
+                    console.log("price:", price);
                 // Update the total price
                 totalproductprice -= parseFloat(item.price);
                 totalprice.innerHTML = totalproductprice.toFixed(2);
                 finalprice.innerHTML = (totalproductprice + parseFloat(handlingcharges.innerHTML)).toFixed(2);
+               
             });
         });
 
@@ -197,3 +204,25 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log("Cart section hidden");
     });
 });
+window.addEventListener('load', function() {
+    let currentIndex = 0;
+    const images = document.querySelectorAll('.banner-image');
+    const totalImages = images.length;
+
+    function showNextImage() {
+        images[currentIndex].classList.remove('active');
+        images[currentIndex].classList.add('prev');
+        
+        currentIndex = (currentIndex + 1) % totalImages;
+        
+        images[currentIndex].classList.remove('prev');
+        images[currentIndex].classList.add('active');
+    }
+
+    // Initialize the first image
+    images[currentIndex].classList.add('active');
+
+    // Automatically show the next image every 3 seconds
+    setInterval(showNextImage, 3000);
+});
+

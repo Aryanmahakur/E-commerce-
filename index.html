@@ -7,7 +7,7 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -63,19 +63,27 @@
                         id="Handling-charges">0</span>
                 </p>
                 <p class="cart-total-total">Total<span id="final-price">0</span></p>
-                <div class="cart-checkout">
-                    <button id="checkout-btn">Checkout</button>
             </div>
-        </div>
+            <div class="cart-checkout">
+                <div class="cart-checkout-main">
+                    <i class="fas fa-rupee-sign" id="rupee-icon"></i>
+                    <p id="final-amt">0</p>
+                    <div id="checkout-btn">Checkout</div>
+                </div>
+            </div>
     </section>
 
 
     <section class="head-banner">
 
         <div class="banner">
-            <div class="banner-main">
-                <img src="images/mainbanner.webp" alt="main-banner" id="main-banner">
+            <div class="banner-mainn" id="banner-main">
+                <img src="images/bannerscroll.webp" alt="main-banner" class="banner-imagee"> <!-- Duplicate of the last image -->
+                <img src="images/mainbanner1.webp" alt="main-banner" class="banner-imagee">
+                <img src="images/bannerscroll.webp" alt="main-banner" class="banner-imagee">
             </div>
+            
+            
             <div class="banner-sub">
                 <img src="images/display-banner1.avif" alt="sub-banner" id="sub-banner">
                 <img src="images/display-banner2.avif" alt="sub-banner" id="sub-banner">
@@ -94,8 +102,8 @@
                 <input type="number" id="number" name="number" placeholder="Enter your mobile number" required><br>
 
 
-                <button type="submit" id="btn-continue">Continue</button>
             </div>
+            <button type="submit" id="btn-continue">Continue</button>
         </div>
     </section>
     <section class="products-category">
@@ -127,22 +135,24 @@
     </section>
     <p class="working-details-title-main">How it Works</p>
     <section class="working-details">
-            <div class="working-details-main">
-                <img src="images/place-order.svg" alt="working-details" id="working-details">
-                <p class="working-details-title">How it works</p>
-                <p class="working-details-subtitle">Choose from over 7000 products across groceries, fresh fruits & veggies, meat, pet care, beauty items & more</p>
-            </div>
-            <div class="working-details-main">
-                <img src="images/place-order1.svg" alt="working-details" id="working-details">
-                <p class="working-details-title">Place an order</p>
-                <p class="working-details-subtitle">Add your favourite items to the cart & avail the best offers</p>
-            </div>
-            <div class="working-details-main">
-                <img src="images/enjoy.svg" alt="working-details" id="working-details">
-                <p class="working-details-title">Get free delivery</p>
-                <p class="working-details-subtitle">Experience lighting-fast speed & get all your items delivered in 10 minutes</p>
-            </div>
-       
+        <div class="working-details-main">
+            <img src="images/place-order.svg" alt="working-details" id="working-details">
+            <p class="working-details-title">How it works</p>
+            <p class="working-details-subtitle">Choose from over 7000 products across groceries, fresh fruits & veggies,
+                meat, pet care, beauty items & more</p>
+        </div>
+        <div class="working-details-main">
+            <img src="images/place-order1.svg" alt="working-details" id="working-details">
+            <p class="working-details-title">Place an order</p>
+            <p class="working-details-subtitle">Add your favourite items to the cart & avail the best offers</p>
+        </div>
+        <div class="working-details-main">
+            <img src="images/enjoy.svg" alt="working-details" id="working-details">
+            <p class="working-details-title">Get free delivery</p>
+            <p class="working-details-subtitle">Experience lighting-fast speed & get all your items delivered in 10
+                minutes</p>
+        </div>
+
     </section>
     <footer>
         <div class="links">
