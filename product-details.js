@@ -46,7 +46,7 @@ subimagesa.forEach((subimage, index) => {
         // Set the main image src to the clicked sub-image src
         mainimage.src = subimage.src;
         // Set the clicked sub-image src to the stored main image src
-        subimage.src = tempcsrc;
+       // subimage.src = tempcsrc;
     });
 
 })

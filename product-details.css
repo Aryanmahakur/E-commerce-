@@ -25,22 +25,23 @@ body {
     width: 100vw;
     display: flex;
     justify-content: space-between;
-   
+  
   
 }
 
 /* Display Item */
 .displayitem {
     display: flex;
-    width: 45%;
+    max-width: 45%;
     flex-direction: column;
+  
     border-right: 1px solid #e0e0e0;
     padding-right: 2rem;
 }
 
 /* Main Image */
 .mainimg img {
-    width: 50%;
+    max-width: 50%;
     margin-left:29%;
     border-radius: 8px;
     object-fit: cover;
@@ -48,14 +49,17 @@ body {
 
 /* Sub Images */
 #sub-images img {
-    width: 20%;
-    margin: 2rem 0.8rem;
+    max-width: 20%;
+    max-margin: 2rem 0.8rem;
+
     border-radius: 8px;
     cursor: pointer;
     transition: transform 0.3s;
 }
 .sub-image {
-    display: inline-block;
+    display:inline-block;
+   
+    margin-top:1rem;
     margin-left:1rem;
 }
 #sub-images .sub-image:hover {
@@ -67,22 +71,24 @@ body {
 .product-details-decription {
     display: flex;
     flex-direction: column;
+  margin-left:4%;
     justify-content: space-between;
    
 }
 .product-name {
+    margin-left:-2%;
     font-size: 2rem;
     font-weight: 600;
-    margin: rem 0;
+    margin: rem rem;
     color: #333;
 }
 .product-price {
     font-size:0.rem;
    
-    margin: 1rem 0;
+    margin: 0rem 0rem 1rem rem;
 }
 .product-description {
-    margin: 1rem 0;
+    margin: 1rem rem;
     color: #555;
 }
 
@@ -94,7 +100,8 @@ body {
    border:1px solid;
     border-radius: 4px;
     cursor: pointer;
-    margin: 1rem 5rem;
+    margin-top:;
+    margin-right: 10%;
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 #add-to-cart:hover {
@@ -103,24 +110,32 @@ body {
 }
 .mrp-cartbtn{
     display:flex;
-    margin: 1rem 0;
+    margin: rem 0;
     justify-content:space-between;
 }
-
+.quantity{
+    
+}
 /* Features */
 .feutures {
     margin: 2rem 0;
 }
 .feutures h2 {
     margin-bottom: 1rem;
+  margin-left:-0.5rem;
     font-size: 1.75rem;
     color: #333;
 }
 .title {
     font-weight: 700;
     color: #333;
+     
 }
-.features1, .features2, .features3 {
+.features1,.features2,.features3 {
     margin: 1rem 0;
     color: #555;
+ 
+}
+.willwork{
+  margin-right:4rem;
 }
