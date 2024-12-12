@@ -1,7 +1,7 @@
 let products = [
     {
         id: "a1",
-        name: "Amul Taaza Toned Milk",
+        name: "Amul  Toned Milk",
         category: "Dairy Product",
         price: 120,
         quantity:"500 ml",
@@ -28,7 +28,7 @@ let products = [
     },
     {
         id: "a4",
-        name: "Modern Sandwich Bread",
+        name: " Sandwich Bread",
         category: "Dairy Product",
         price: 45,
         quantity:"100 g",
@@ -118,7 +118,7 @@ let products = [
   },
   {
     id:"b7",
-    name: " Good Day Cashew Biscuit",
+    name: " GoodDay Cashew Biscuit",
     category: "Snacks",
     price: 110,
     quantity:"100 g",
@@ -213,12 +213,12 @@ let products = [
     price: 200,
     quantity:"400 g",
     mainimage: "images/tatacoffe.webp",
-    subimage: ["images/tatacoffe.webp", "images/tatacoffe1.webp", "images/tatacoffe12.webp","images/tatacoffe3.webp"],
+    subimage: ["images/tatacoffe.webp", "images/tatacoffe1.webp", "images/tatacoffe12.webp","images/tatacoffe13.webp"],
    
 },
 {
     id:"d4" ,
-    name: "Lipton Lemon Green Tea ",
+    name: "Lipton Green Tea ",
     category: "Tea",
     price: 250,
     quantity:"500 g",
@@ -227,7 +227,7 @@ let products = [
 },
 {
     id:"d5" ,
-    name: "Tata Tea Premium Tea ",
+    name: "Tata Premium Tea ",
     category: "Tea",
     price: 150,
     quantity:"250 g",

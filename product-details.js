@@ -17,6 +17,7 @@ if(product){
     document.getElementById("product-name").textContent = product.name;
     document.getElementById("product-price").textContent =`MRP ${product.price}`;
     document.getElementById("product-description").textContent = product.description;
+    document.getElementById("quantity").textContent = product.quantity;
 let subimages = document.getElementById("sub-images");
 product.subimage.forEach((image,index) => {
      const imgelement = document.createElement("img");
@@ -25,7 +26,7 @@ product.subimage.forEach((image,index) => {
      imgelement.classList.add("sub-image");
      imgelement.id = `subimage-${index + 1}`;
      subimages.appendChild(imgelement);
-     localStorage.clear();
+     
      console.log("All local storage data cleared.");
      
 
