@@ -24,6 +24,8 @@ body {
 .product-details-container {
     width: 100vw;
     display: flex;
+    padding-bottom:1rem;
+      border-bottom: 1px solid #e0e0e0;
     justify-content: space-between;
   
   
@@ -76,7 +78,7 @@ body {
    
 }
 .product-name {
-    margin-left:-2%;
+    margin-left:-%;
     font-size: 2rem;
     font-weight: 600;
     margin: rem rem;
@@ -120,9 +122,9 @@ body {
 .feutures {
     margin: 2rem 0;
 }
-.feutures h2 {
+h2{
     margin-bottom: 1rem;
-  margin-left:-0.5rem;
+ margin-left:-0.1rem;
     font-size: 1.75rem;
     color: #333;
 }
@@ -138,4 +140,53 @@ body {
 }
 .willwork{
   margin-right:4rem;
+}
+/* General Styling */
+.details-of-product {
+    width: 45vw;
+
+  margin-left:1rem;
+ 
+}
+
+.details-of-product p {
+    font-family: 'Poppins', sans-serif;
+    margin: 1rem 0;
+}
+
+/* Headings */
+#details-heading{
+   
+    font-size: 1.7rem;
+   margin-top:rem;
+    font-weight: bold;
+   margin-bottom:1rem;
+}
+
+.selflife-heading,
+.ingredient-heading,
+.keyfeatures-heading,
+.decription-heading,
+.brand-heading,
+.quantity-heading{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+/* Data Sections */
+#selflife-span,
+#selflife-ingredients,
+#selflife-keyfeatures,
+#selflife-description,
+#selflife-brand,
+#selflife-quantity {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    font-size: 0.9rem;
+    font-weight: normal;
+    margin-top: 0.5rem;
+    min-height: 1rem; /* Ensures minimum height for smaller data */
+    white-space: pre-wrap; /* Ensures text wraps properly */
+    color:
 }

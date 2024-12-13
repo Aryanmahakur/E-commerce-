@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
     let finalprice = document.getElementById("final-price");
     let cartcount = document.getElementById("cart-count");
     
-
     // Function to get URL parameter
     function geturlparameter(name) {
         return new URLSearchParams(window.location.search).get(name);
@@ -18,13 +17,32 @@ document.addEventListener("DOMContentLoaded", function () {
     // Find the product with the matching 'id'
     const product = products.find(p => p.id === productsid);
     console.log("product id: ", product);
-
+       
     if (product) {
         document.getElementById("product-image").src = product.mainimage;
         document.getElementById("product-name").textContent = product.name;
         document.getElementById("product-price").textContent = `MRP ${product.price}`;
-        document.getElementById("product-description").textContent = product.description;
+        //document.getElementById("product-description").textContent = product.description;
         document.getElementById("quantity").textContent = product.quantity;
+        document.getElementById("selflife-span").textContent = product.selflife;
+       
+        document.getElementById("selflife-description").textContent = product.description;
+        document.getElementById("selflife-brand").textContent = product.company;
+        document.getElementById("selflife-quantity").textContent = product.quantity;
+document.getElementById("video-src").src= product.video;
+        // Check and hide the ingredients section if it is empty or undefined
+        if (!product.ingredient) {
+            document.getElementById("ingredient-heading").style.display = 'none';
+        } else {
+            document.getElementById("selflife-ingredients").textContent = product.ingredient;
+        }
+        
+        if (!product.keyfeature) {
+            document.getElementById("keyfeatures-heading").style.display = 'none';
+        } else {
+            document.getElementById("selflife-keyfeatures").textContent = product.keyfeature;
+        }
+        
 
         let subimages = document.getElementById("sub-images");
         product.subimage.forEach((image, index) => {
@@ -83,6 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
             handlingcharges.innerHTML = "20";
             finalprice.innerHTML = (totalproductprice + parseFloat(handlingcharges.innerHTML)).toFixed(2);
             document.getElementById("final-amt").innerHTML = finalprice.innerHTML;
+
             let cartItem = document.createElement("div");
             cartItem.classList.add("cart-item");
             cartItem.innerHTML = `

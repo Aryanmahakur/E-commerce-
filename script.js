@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Using a loop that will bring data from products array
     products.forEach((product) => {
-        if (product.category === "Dairy Product") {
+        if (product.category === "Dairy Product" && product.display === "mainpage") {
             productcontainer.innerHTML += renderProducts(product);
         } else if (product.category === "Snacks") {
             productcontainer1.innerHTML += renderProducts(product);

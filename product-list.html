@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product-list.css">
+</head>
+<body>
+    <header class="header">
+        <div class="top-navbar">
+            <div class="logo">
+                <p class="logo-img"><img src="images/LOGOMAIN.png" class="logopng-main"></p>
+            </div>
+            <form class="location-form">
+
+                <input type="text" id="Search" name="Search" placeholder="Search for products, brands and more">
+            </form>
+
+            <div class="login-cart-btn">
+                <button id="login-btn">Login</button>
+                <div class="cart-btn" id="cart-btn">
+                    <i class="fas fa-shopping-cart" id="cart-icon"></i> <span class="cart-count"
+                        id="cart-count">0</span>
+                </div>
+            </div>
+
+
+
+        </div>
+    </header>
+    <section class="cart-section">
+        <div class="cart-section-main" id="cart-section-main">
+            <div class="exit-cart" id="exit-cart">
+                <span>
+                    <p class="cart-heading">My Cart</p>
+                </span>
+                <i class="fas fa-times" id="exit-icon"></i>
+            </div>
+            <p class="cart-feature">
+                <i class="fas fa-clock" id="clock-icon"></i> Delivery in 14 minutes
+            </p>
+            <div class="cart-product-container" id="cart-product-container">
+                <!-- Products will be dynamically added here -->
+            </div>
+            <div class="cart-total">
+                <p class="cart-total-title">Bill details</p>
+                <p class="cart-total-price">
+                    <i class="fas fa-receipt" id="receipt-icon"></i> Total<span id="total-price">0</span>
+                </p>
+                <p class="cart-total-delivery-charges">
+                    <i class="fa fa-motorcycle" aria-hidden="true" id="motorcycle-icon"></i> Delivery charges<span
+                        id="total-Delivery-charges">FREE</span>
+                </p>
+                <p class="cart-total-handling">
+                    <i class="fa fa-shopping-bag" aria-hidden="true" id="bag-icon"></i></i> Handling charges<span
+                        id="Handling-charges">0</span>
+                </p>
+                <p class="cart-total-total">Total<span id="final-price">0</span></p>
+            </div>
+            <div class="cart-checkout">
+                <div class="cart-checkout-main">
+                    <i class="fas fa-rupee-sign" id="rupee-icon"></i>
+                    <p id="final-amt">0</p>
+                    <div id="checkout-btn">Checkout</div>
+                </div>
+            </div>
+    </section>
+    <section class="product-list-display">
+        <div class="product-list-display-container" id="product-list-display-container">
+            <!-- Products will be dynamically added here -->
+        </div>
+    <script src="product-listing.js"></script>
+    <script src="product-details.js"></script>
+    <script src="product-list.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
