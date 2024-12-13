@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product Details</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="product-details.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product-details.css">
 </head>
 
 <body>
@@ -18,95 +18,130 @@
                 <p class="logo-text">Blinkit</p>
             </div>
             <form class="location-form">
-
                 <input type="text" id="Search" name="Search" placeholder="Search for products, brands and more">
             </form>
-
             <div class="login-cart-btn">
                 <button id="login-btn">Login</button>
-                <div class="cart-btn">
-                    <i class="fas fa-shopping-cart" id="cart-icon"></i> <span class="cart-count">0</span>
+                <div class="cart-btn" id="cart-btn">
+                    <i class="fas fa-shopping-cart" id="cart-icon"></i> <span class="cart-count"
+                        id="cart-count">0</span>
                 </div>
             </div>
         </div>
-
     </header>
-    
-<section class="cart-section">
-    <div class="cart-section-main" id="cart-section-main">
-        <div class="exit-cart" id="exit-cart">
-            <span>
-                <p class="cart-heading">My Cart</p>
-            </span>
-            <i class="fas fa-times" id="exit-icon"></i>
-        </div>
-        <p class="cart-feature">
-            <i class="fas fa-clock" id="clock-icon"></i> Delivery in 14 minutes
-        </p>
-        <div class="cart-product-container" id="cart-product-container">
-            <!-- Products will be dynamically added here -->
-        </div>
-        <div class="cart-total">
-            <p class="cart-total-title">Bill details</p>
-            <p class="cart-total-price">
-                <i class="fas fa-receipt" id="receipt-icon"></i> Total<span id="total-price">0</span>
+    <section class="cart-section">
+        <div class="cart-section-main" id="cart-section-main">
+            <div class="exit-cart" id="exit-cart">
+                <span>
+                    <p class="cart-heading">My Cart</p>
+                </span>
+                <i class="fas fa-times" id="exit-icon"></i>
+            </div>
+            <p class="cart-feature">
+                <i class="fas fa-clock" id="clock-icon"></i> Delivery in 14 minutes
             </p>
-            <p class="cart-total-delivery-charges">
-                <i class="fa fa-motorcycle" aria-hidden="true" id="motorcycle-icon"></i> Delivery charges<span
-                    id="total-Delivery-charges">FREE</span>
-            </p>
-            <p class="cart-total-handling">
-                <i class="fa fa-shopping-bag" aria-hidden="true" id="bag-icon"></i></i> Handling charges<span
-                    id="Handling-charges">0</span>
-            </p>
-            <p class="cart-total-total">Total<span id="final-price">0</span></p>
-        </div>
-        <div class="cart-checkout">
-            <div class="cart-checkout-main">
-                <i class="fas fa-rupee-sign" id="rupee-icon"></i>
-                <p id="final-amt">0</p>
-                <div id="checkout-btn">Checkout</div>
+            <div class="cart-product-container" id="cart-product-container">
+                <!-- Products will be dynamically added here -->
+            </div>
+            <div class="cart-total">
+                <p class="cart-total-title">Bill details</p>
+                <p class="cart-total-price">
+                    <i class="fas fa-receipt" id="receipt-icon"></i> Total<span id="total-price">0</span>
+                </p>
+                <p class="cart-total-delivery-charges">
+                    <i class="fa fa-motorcycle" aria-hidden="true" id="motorcycle-icon"></i> Delivery charges<span id="total-Delivery-charges">FREE</span>
+                </p>
+                <p class="cart-total-handling">
+                    <i class="fa fa-shopping-bag" aria-hidden="true" id="bag-icon"></i> Handling charges<span id="Handling-charges">0</span>
+                </p>
+                <p class="cart-total-total">Total<span id="final-price">0</span></p>
+            </div>
+            <div class="cart-checkout">
+                <div class="cart-checkout-main">
+                    <i class="fas fa-rupee-sign" id="rupee-icon"></i>
+                    <p id="final-amt">0</p>
+                    <div id="checkout-btn">Checkout</div>
+                </div>
             </div>
         </div>
     </section>
-    
-    
-    <section="product-details">
+
+    <section class="product-details">
         <div class="product-details-container">
             <div class="displayitem">
                 <div class="mainimg">
-
                     <img src="" alt="product-image" id="product-image">
                 </div>
                 <div id="sub-images" class="thumbnails"></div>
             </div>
 
-            <div class="product-details-decription">
-
+            <div class="product-details-description">
                 <p class="product-name" id="product-name"></p>
-              <p class="quantity" id="quantity"></p>
+                <p class="quantity" id="quantity"></p>
                 <div class="mrp-cartbtn">
-
                     <p class="product-price" id="product-price"></p>
                     <button class="add-to-car" id="add-to-cart">Add to Cart</button>
                 </div>
                 <p class="product-description" id="product-description"></p>
-                <div class="feutures">
-                    <h2>Why shop from blinkit?</h2>
-                    <p class="features1"><span class="title">Superfast Delivery</span><br><p class="willwork"> Get your order delivered to your doorstep at the earliest from dark stores near you.</p></p>
-                    <p class="features2"><span class="title">Best Prices & Offers</span><br><p class="willwork"> Best price destination with offers directly from the manufacturers.</p>
-                    <p class="features3"><span class="title">Wide Assortment</span><br><p class="willwork"> from 5000+ products across food, personal care, household & other categories.</p></p>
+                <div class="features">
+                    <h2>Why shop from Blinkit?</h2>
+                    <p class="features1"><span class="title">Superfast Delivery</span><br><span class="willwork">Get your order delivered to your doorstep at the earliest from dark stores near you.</span></p>
+                    <p class="features2"><span class="title">Best Prices & Offers</span><br><span class="willwork">Best price destination with offers directly from the manufacturers.</span></p>
+                    <p class="features3"><span class="title">Wide Assortment</span><br><span class="willwork">Choose from 5000+ products across food, personal care, household & other categories.</span></p>
                 </div>
             </div>
         </div>
     </section>
-    <p class="product-description" id="product-description"></p>
-<ul id="product-key-features"></ul>
+    <footer>
+        <div class="links">
+            <div class="link-container">
+                <div class="download-options">
+                    <p class="link-header">Download App</p>
+                    <div class="download-btns">
+                        <i class="fab fa-google-play" id="googleplay"></i>
+                        <i class="fab fa-apple" id="apple"></i>
+                    </div>
+                    <div class="socials-links">
+                        <div class="socials">
+                            <p class="socials-header">Follow us on</p>
+                            <i class="fab fa-facebook-f icons"></i>
+                            <i class="fab fa-instagram icons"></i>
+                            <i class="fab fa-twitter icons"></i>
+                            <i class="fab fa-youtube icons"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="link-container useful-links">
+                <p class="link-header">Useful Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="helpcare.html">Help</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="link-container1">
+                <p class="link-header">Categories</p>
+                <nav>
+                    <ul>
+                        <li><a href="dairyproduct.html">Dairy Product</a></li>
+                        <li><a href="teaandcoffee.html">Tea & Coffee</a></li>
+                        <li><a href="biscuits.html">Biscuits</a></li>
+                        <li><a href="chips.html">Chips</a></li>
+                        <li><a href="ice-cream.html">Ice Cream</a></li>
+                        <li><a href="colddrink.html">Cold Drink</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
 
-        <script src="product-listing.js"></script>
-        <script src="product-details.js"></script>
-        <script src="script.js"></script> 
-        
+    <script src="product-listing.js"></script>
+    <script src="product-details.js"></script>
+    <script src="script.js"></script> 
 </body>
 
 </html>
