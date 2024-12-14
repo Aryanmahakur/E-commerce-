@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Using a loop that will bring data from products array
     products.forEach((product) => {
-        if (product.category === "Dairy Product" && product.display === "mainpage") {
+        if (product.category === "DairyProduct" && product.display === "mainpage") {
             productcontainer.innerHTML += renderProducts(product);
         } else if (product.category === "Snacks") {
             productcontainer1.innerHTML += renderProducts(product);
@@ -203,5 +203,12 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("exit-cart").addEventListener("click", () => {
         cartSectionMain.classList.remove("active");
         console.log("Cart section hidden");
+    });
+});
+// for product listing with diffrent categories
+document.querySelectorAll(".productredirect").forEach((product) => {
+    product.addEventListener("click", () => {
+        const datacategory = product.getAttribute('data-product');
+        window.location.href = `product-list.html?category=${datacategory}`;
     });
 });
