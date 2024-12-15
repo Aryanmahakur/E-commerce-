@@ -164,7 +164,7 @@ document.getElementById("video-src").src= product.video;
     displayCartItems();
 
     // Toggle cart visibility
-    document.getElementById("cart-btn").addEventListener("click", () => {
+    document.getElementById("cart-btnn").addEventListener("click", () => {
         document.getElementById("cart-section-main").classList.toggle("active");
         console.log("Cart section toggled");
     });

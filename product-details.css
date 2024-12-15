@@ -30,7 +30,9 @@ body {
   
   
 }
-
+.cart-section-main.active{
+    right:0rem;
+}
 /* Display Item */
 .displayitem {
     display: flex;

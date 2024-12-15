@@ -27,14 +27,4 @@ document.addEventListener("DOMContentLoaded", function () {
             productcontainer.innerHTML += renderProductsitem(product);
         }
     });
-
-    document.getElementById("cart-btn").addEventListener("click", () => {
-        document.getElementById("cart-section-main").classList.toggle("active");
-        console.log("Cart section toggled");
-    });
-});
-
-document.getElementById("exit-cart").addEventListener("click", () => {
-    document.getElementById("cart-section-main").classList.remove("active");
-    console.log("Cart section hidden");
 });
