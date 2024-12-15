@@ -81,6 +81,41 @@ body {
     border-color: #007BFF;
     box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4);
 }
+.location-form{
+    display:flex;
+}
+/* Category Select Box Styling */
+.category {
+    display: inline-block; /* Keeps the dropdown inline with other elements */
+    margin: 0 1rem 0 0; /* Adjusted margin for spacing */
+}
+
+.category select {
+    font-size: 0.8rem; /* Adjust font size as needed */
+    
+    height: 2.5rem; /* Adjust height to fit content */
+    width: auto; /* Adjust width to fit content */
+    max-width: 100%; /* Ensure it doesn't overflow the container */
+    margin-left: 5%; /* Removes default margin */
+    border-radius: 4px; /* Adds border radius for better aesthetics */
+    padding: 0.5rem; /* Adds padding for better appearance */
+    border: 1px solid #ccc; /* Adds border for better visibility */
+    font-family: 'Arial', sans-serif; /* Sets font family */
+    background-color: #f8f8f8; /* Sets background color */
+    transition: all 0.3s ease; /* Adds transition for smooth hover effect */
+}
+
+
+.category select:hover {
+    border-color: #007BFF; /* Changes border color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow on hover */
+}
+
+.category select:focus {
+    outline: none; /* Removes default outline */
+    border-color: #007BFF; /* Changes border color on focus */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4); /* Adds shadow on focus */
+}
 
 /* Login and Cart Button Container Styling */
 .login-cart-btn {
@@ -88,7 +123,9 @@ body {
     align-items: center;
     gap: 1rem;
 }
-
+.category select option {
+    font-size: 1rem; /* Adjust font size as needed */
+}
 /* Cart Icon Styling */
 #cart-icon {
     font-size: 1.3rem;
@@ -168,10 +205,18 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin: 2rem 0;
+    
 }
+
+  
+
 
 .category-images img {
     width: 10%;
+    transition: all 0.3s ease-in-out;
+}
+.category-images img:hover {
+    transform: scale(1.1);
 }
 
 h1,h2,h3,h4{
@@ -194,9 +239,9 @@ h1,h2,h3,h4{
 /* Product Container */
 .dairyproductcontainer,
 .product-container {
-    flex: 0 0 calc((100vw / 7) - 10px);
+    flex: 0 0 calc((100vw / 6) - 10px);
     margin: 1rem 1rem;
-    max-height: 16rem;
+    max-height: 22rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
     
@@ -208,11 +253,11 @@ h1,h2,h3,h4{
 /* Product Images */
 .dairyproductcontainer img,
 .product-container img {
-    width: 80%; /* Adjusted to ensure images fit within container */
+    width: 70%; /* Adjusted to ensure images fit within container */
     height: auto; /* Maintain aspect ratio */
     margin-top:0.5rem;
     margin-bottom:1rem;
-    margin-left:1.3rem;
+    margin-left:17%;
     object-fit: cover; /* Cover the entire container area without distortion */
 }
 
@@ -220,8 +265,12 @@ h1,h2,h3,h4{
 .name,
 .quantity,
 .price {
+   
     position: relative;
     left: 0.4rem;
+}
+.name{
+     font-family:'poppins';
 }
 
 .name {
@@ -251,18 +300,21 @@ margin-right:1rem;
 
 .price {
     display: flex;
-    gap: 3rem;
-      margin-top:0.8rem;
+    font-size:0.9rem;
+    font-weight:600;
+   margin-bottom:1.5rem;
+      margin-top:0.2rem;
 }
 
 /* Add to Cart Button */
 .add-to-cart {
-    width: 40%;
-    height: 2rem;
+    width: 90%;
+    height: 15%;
     border:1px solid;
+    margin-left:5%;
     border-radius:5px;
- 
-    transform: translate(140%, -80%);
+ margin-bottom:5%;
+   transform:translate(0%,-10%)
 }
 
 /* Footer Styles */

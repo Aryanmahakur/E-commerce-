@@ -1,4 +1,7 @@
 /* Container for the product list */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 #product-list-display-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* Five columns */
@@ -10,18 +13,18 @@
 .product-container {
     max-height: 21rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
-   
+  
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 
 /* Product image styling */
 .product-container img {
-   width: 50%; /* Adjusted to ensure images fit within container */
+   max-width: 50%; /* Adjusted to ensure images fit within container */
     height: auto; /* Maintain aspect ratio */
-    margin-top:0.5rem;
-    margin-bottom:1rem;
-    margin-left:3.3rem;
+    margin-top:12%;
+    margin-bottom:2rem;
+margin-left:25%;
     object-fit: cover; /* Cover the entire container area without distortion */
 }
 
@@ -29,20 +32,25 @@
 .name {
     font-size: 0.9rem;
     font-weight: bold;
-  margin:0.5rem 0;
+  margin-top:0.2rem;
+    margin-bottom:-0.4rem;
+    margin-left:2%;
 }
 
-/* Product quantity styling */
-.product-container .quantity {
-    font-size: 1rem;
+/* Product quantity styling */.quantity {
+    font-size: 0.8rem;
+   transform:translatey(-50%);
     color: #666;
+    margin-left:2%;
    
 }
 
 /* Product price styling */
-.product-container .price {
+.price {
     font-size: 1rem;
+ transform:translatey(-50%);
     color: #333;
+   margin-left:2%;
   
 }
 
@@ -50,7 +58,12 @@
 .product-container .add-to-cart {
     background-color: #28a745;
     color: white;
-   
+    margin-left:5%;
+   margin-top:rem;
+    margin-bottom:0.8rem;
+    min-width:90%;
+    height:1.8rem;
+   transform:translatey(-20%);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -59,4 +72,18 @@
 
 .product-container .add-to-cart:hover {
     background-color: #218838;
+}
+.sortbtn{
+    display:flex;
+    gap:1%;
+    margin:1rem;
+}
+.sortbtn-main-p{
+    margin-top:0.3%;
+}
+#sort{
+    width:10rem;
+    height:1.8rem;
+    color:brown;
+    border: 1px solid brown;
 }

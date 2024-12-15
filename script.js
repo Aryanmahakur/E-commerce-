@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <img src="${product.mainimage}" alt="mainimages">
             <p class="name">${product.name}</p>
             <p class="quantity">${product.quantity}</p>
-            <p class="price">MRP ${product.price}</p>
+            <p class="price">₹ ${product.price}</p>
             <button class="add-to-cart">Add to Cart</button>
         </div>`;
     }
@@ -221,3 +221,12 @@ document.querySelectorAll(".sub-banner").forEach((item) => {
         
     });
 });
+
+
+     const selectElement = document.querySelector("#category"); 
+     selectElement.addEventListener("change", () => { 
+        const selectedOptionValue = selectElement.value; 
+        console.log("Selected value:", selectedOptionValue); 
+        window.location.href = `product-list.html?category=${selectedOptionValue}`;
+    });
+

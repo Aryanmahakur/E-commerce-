@@ -33,7 +33,7 @@ let products = [
         name: "Amul Salted Butter",
         category: "DairyProduct",
           company: "Amul",
-        price: "500 g",
+        price: "500 ",
         display: "mainpage",
         keyfeature:"Wholesome taste Healthy and nutritious milkRich in calcium",
         quantity:"500 g",

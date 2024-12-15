@@ -21,8 +21,23 @@
             <form class="location-form">
 
                 <input type="text" id="Search" name="Search" placeholder="Search for products, brands and more">
+                <div class="category">
+                    <select name="category" id="category">
+                        <option value="default" class="options">Search By Categories</option>
+                        <option value="DairyProduct"  class="options">Dairy Product</option>
+                        <option value="Tea"  class="options">Tea & Coffee</option>
+                        <option value="Snacks"  class="options">Biscuits</option>
+                        <option value="Chips"  class="options">Chips</option>
+                        <option value="IceCream"  class="options">Ice Cream</option>
+                        <option value="colddrink"  class="options">Cold Drink</option>
+                        <option value="petfood"  class="options">Pet Food</option>
+                        <option value="bodycare"  class="options">Body Care</option>
+                        <option value="babyproduct"  class="options">Baby Product</option>
+                    </select>
+                </div>
             </form>
-
+        
+           
             <div class="login-cart-btn">
                 <button id="login-btn">Login</button>
                 <div class="cart-btn" id="cart-btn">
@@ -78,16 +93,20 @@
 
         <div class="banner">
             <div class="banner-mainn" id="banner-main">
-                <img src="images/bannerscroll.webp" alt="main-banner" class="banner-imagee"> <!-- Duplicate of the last image -->
+                <img src="images/bannerscroll.webp" alt="main-banner" class="banner-imagee">
+                <!-- Duplicate of the last image -->
                 <img src="images/mainbanner1.webp" alt="main-banner" class="banner-imagee">
                 <img src="images/bannerscroll.webp" alt="main-banner" class="banner-imagee">
             </div>
-            
-            
+
+
             <div class="banner-sub">
-                <img src="images/display-banner1.avif" alt="sub-banner"class="sub-banner" id="sub-banner" data-product="medicine">
-                <img src="images/display-banner2.avif" alt="sub-banner" class="sub-banner" id="sub-banner" data-product="petfood">
-                <img src="images/display-banner3.avif" alt="sub-banner" class="sub-banner" id="sub-banner" data-product="babyproduct">
+                <img src="images/display-banner1.avif" alt="sub-banner" class="sub-banner" id="sub-banner"
+                    data-product="medicine">
+                <img src="images/display-banner2.avif" alt="sub-banner" class="sub-banner" id="sub-banner"
+                    data-product="petfood">
+                <img src="images/display-banner3.avif" alt="sub-banner" class="sub-banner" id="sub-banner"
+                    data-product="babyproduct">
             </div>
         </div>
     </section>
@@ -109,15 +128,17 @@
     <section class="products-category">
         <div class="category-images">
 
-            <img src="images/dairyproduct.avif" alt="" id="dairyproduct" class="productredirect" data-product="DairyProduct">
+            <img src="images/dairyproduct.avif" alt="" id="dairyproduct" class="productredirect"
+                data-product="DairyProduct">
             <img src="images/cookies.webp" alt="" id="cookies" class="productredirect" data-product="Snacks">
             <img src="images/snacks.avif" alt="" id="snacks" class="productredirect" data-product="Chips">
             <img src="images/ice-creame.webp" alt="" id="ice-creame" class="productredirect" data-product="IceCream">
             <img src="images/tea-coffee.avif" alt="" id="tea-coffee" class="productredirect" data-product="Tea">
-            <img src="images/babyproduct.webp" alt="" id="babyproduct" class="productredirect" data-product="babyproduct">
+            <img src="images/babyproduct.webp" alt="" id="babyproduct" class="productredirect"
+                data-product="babyproduct">
             <img src="images/petfood.avif" alt="" id="petfood" class="productredirect" data-product="petfood">
             <img src="images/body-care.webp" alt="" id="body-care" class="productredirect" data-product="bodycare">
-            <img src="images/cold drink.avif" alt="" id="cold-drink"  class="productredirect" data-product="colddrink">
+            <img src="images/cold drink.avif" alt="" id="cold-drink" class="productredirect" data-product="colddrink">
 
 
         </div>

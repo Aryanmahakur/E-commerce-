@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <img src="${productss.mainimage}" alt="mainimages">
             <p class="name">${productss.name}</p>
             <p class="quantity">${productss.quantity}</p>
-            <p class="price">MRP ${productss.price}</p>
+            <p class="price">₹ ${productss.price}</p>
             <button class="add-to-cart">Add to Cart</button>
         </div>`;
     }
