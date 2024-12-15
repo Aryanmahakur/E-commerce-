@@ -60,6 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     });
+  
 
     // Event listener for the add to cart button to stop propagation
     document.querySelectorAll(".add-to-cart").forEach(btn => {
@@ -210,5 +211,13 @@ document.querySelectorAll(".productredirect").forEach((product) => {
     product.addEventListener("click", () => {
         const datacategory = product.getAttribute('data-product');
         window.location.href = `product-list.html?category=${datacategory}`;
+    });
+});
+document.querySelectorAll(".sub-banner").forEach((item) => {
+    item.addEventListener('click', () => {
+      
+            const datacategory = item.getAttribute('data-product');
+            window.location.href = `product-list.html?category=${datacategory}`;
+        
     });
 });
