@@ -106,7 +106,7 @@ body {
     cursor: pointer;
     margin-top:;
     margin-right: 10%;
-    transition: background-color 0.3s, box-shadow 0.3s;
+    transition: background-color 0.3s;
 }
 #add-to-cart:hover {
     background-color: #0056b3;

@@ -153,23 +153,18 @@ body {
 #login-btn {
     padding: 0.8rem 1.5rem;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px; 
+    background-color:white;
+    
     font-size: 1rem;
     font-family: 'Arial', sans-serif;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
-#login-btn:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
 
-#login-btn:focus {
-    outline: none;
-    border-color: #007BFF;
-    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4);
-}
+
+
 
 /* Banner Styling */
 .banner {
@@ -202,9 +197,10 @@ body {
 .category-images {
     display: flex;
     width: 100vw;
+  
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin: 2rem 0;
+  margin: 2rem 0rem;
     
 }
 
@@ -212,7 +208,8 @@ body {
 
 
 .category-images img {
-    width: 10%;
+    width: 8%;
+  
     transition: all 0.3s ease-in-out;
 }
 .category-images img:hover {
@@ -253,7 +250,7 @@ h1,h2,h3,h4{
 /* Product Images */
 .dairyproductcontainer img,
 .product-container img {
-    width: 70%; /* Adjusted to ensure images fit within container */
+    width: 65%; /* Adjusted to ensure images fit within container */
     height: auto; /* Maintain aspect ratio */
     margin-top:0.5rem;
     margin-bottom:1rem;
@@ -287,7 +284,7 @@ margin-right:1rem;
 
 
 .quantity {
-    margin: 0.4rem 0;
+    margin: 0.4rem ;
     font-size: 0.8rem;
 }
 
@@ -304,6 +301,7 @@ margin-right:1rem;
     font-weight:600;
    margin-bottom:1.5rem;
       margin-top:0.2rem;
+    margin-left:3%;
 }
 
 /* Add to Cart Button */
@@ -314,8 +312,18 @@ margin-right:1rem;
     margin-left:5%;
     border-radius:5px;
  margin-bottom:5%;
-   transform:translate(0%,-10%)
+    background-color:rgb(176, 113, 65);
+    color:white;
+ font-family:'poppins';
+   transform:translate(0%,-10%);
+  transition:all 0.3s ease-in-out;
 }
+.add-to-cart:hover{
+    background-color:#faf8f7;
+    color:rgb(176, 113, 65);
+}
+
+
 
 /* Footer Styles */
 footer {

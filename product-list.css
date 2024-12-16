@@ -56,7 +56,7 @@ margin-left:25%;
 
 /* Add to Cart button styling */
 .product-container .add-to-cart {
-    background-color: #28a745;
+   
     color: white;
     margin-left:5%;
    margin-top:rem;
@@ -71,7 +71,8 @@ margin-left:25%;
 }
 
 .product-container .add-to-cart:hover {
-    background-color: #218838;
+    background-color:#faf8f7;
+    color:rgb(176, 113, 65);
 }
 .sortbtn{
     display:flex;

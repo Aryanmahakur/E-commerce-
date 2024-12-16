@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const productcontainer = document.getElementById("product-list-display-container");
 
-   
+
 
     function renderProductsitem(productss) {
         return `
@@ -27,4 +27,18 @@ document.addEventListener("DOMContentLoaded", function () {
             productcontainer.innerHTML += renderProductsitem(product);
         }
     });
+
+
+    const productContainer = document.getElementById("product-list-display-container");
+
+    // Event delegation to handle clicks on dynamically created elements
+    productContainer.addEventListener("click", (event) => {
+        const productElement = event.target.closest(".product-container");
+        if (productElement) {
+            const dataId = productElement.getAttribute('id');
+            window.location.href = `product-details.html?id=${dataId}`;
+        }
+    });
+
+
 });

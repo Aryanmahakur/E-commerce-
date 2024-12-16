@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("selflife-description").textContent = product.description;
         document.getElementById("selflife-brand").textContent = product.company;
         document.getElementById("selflife-quantity").textContent = product.quantity;
-document.getElementById("video-src").src= product.video;
         // Check and hide the ingredients section if it is empty or undefined
         if (!product.ingredient) {
             document.getElementById("ingredient-heading").style.display = 'none';
@@ -45,6 +44,7 @@ document.getElementById("video-src").src= product.video;
         
 
         let subimages = document.getElementById("sub-images");
+      console.log("subimage:" + product.subimage);subimages;
         product.subimage.forEach((image, index) => {
             const imgelement = document.createElement("img");
             imgelement.src = image;
