@@ -239,13 +239,17 @@ h1,h2,h3,h4{
     flex: 0 0 calc((100vw / 6) - 10px);
     margin: 1rem 1rem;
     max-height: 22rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid  rgb(176, 113, 65);
     display: flex;
-    
+   
+   
     flex-direction: column;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
+
+   
+
 
 /* Product Images */
 .dairyproductcontainer img,
@@ -759,3 +763,294 @@ transition: transform 0.3s  ;
                } 
     100% { transform: translateX(-100%); 
          }
+        }
+        /* Default styles */
+    
+
+
+/* Phones */
+
+
+/* Large Devices */
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 575.98px) {
+    /* Styles here */
+    html, body {
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Styles here */
+    html, body {
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    #Search {
+    width: 20rem;
+   
+}
+    .category {
+    display:none ;
+}
+    #cart-icon {
+  
+    padding: 0.6rem 1.9rem;
+   
+}
+    #login-btn {
+  padding: 0.6rem 1.9rem;
+        display:none;
+}
+  .category-images {
+   
+  overflow-x:scroll;
+ 
+   flex-wrap:nowrap;
+
+    
+}
+    .category-images img {
+    width: 12%;
+        margin-right:1rem;
+  
+    transition: all 0.3s ease-in-out;
+}
+    h1,h2,h3,h4{
+     font-family: 'Poppins';
+    font-size: 1.3rem;
+    margin: 1rem 0.5rem 0rem 1rem;
+}
+    .dairyproductcontainer,
+.product-container {
+  flex: 0 0 calc((100vw / 4) - 10px);
+   
+    max-height: 20rem;
+   
+}
+    footer .links {
+    display: flex;
+    justify-content: space-evenly;
+        
+    flex-wrap: nowrap;
+    margin-left:3rem;
+}
+    footer {
+   margin-top:40rem;
+}
+    #cart-item-image{
+    width:5rem;
+    height:5rem;
+   
+  
+    margin:1rem 0.7rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+   .cart-section-main{
+   font-size:0.8rem;
+    
+}
+    .cart-heading{
+    font-size:1.3rem;
+    font-weight:700;
+}
+    .cart-feature{
+  
+    font-size:1rem;
+   
+    }
+
+  .cart-total-title{
+   font-size:1rem;
+    font-weight:700;
+     padding-top:1rem;
+   margin:1rem 0.5rem;
+}
+    .cart-total-total{
+    font-size:1rem;
+    font-weight:700;
+  
+}
+    #final-amt{
+     font-size:1.1rem;
+    margin:0% 1%;
+}
+    #checkout-btn{
+    position:absolute;
+    right:15%;
+    font-size:1.2rem;
+    border:none;
+}
+    #rupee-icon{
+        font-size:1rem;
+    }
+    .working-details{
+  flex-direction:column;
+margin-left:15%;
+     
+   
+}
+    .working-details-main{
+    width:70%;
+   border-radius:8px;
+  
+    height:20rem;
+
+       border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+               
+
+    background-color: #fff;
+    border-radius: 8px;
+        margin-top:2rem;
+ margin-bottom:1rem;
+transition: transform 0.3s  ;
+}
+.working-details-title-main{
+    text-align:center;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    font-size:2rem;
+}
+    .working-details-subtitle{
+        padding:1rem 0rem 2rem 0rem;
+    }
+    
+}
+
+/* Medium Devices (Desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Styles here */
+    html, body {
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    #Search {
+    width: 20rem;
+   
+}
+    .category {
+    display:none ;
+}
+    #cart-icon {
+  
+    padding: 0.6rem 1.9rem;
+   
+}
+    #login-btn {
+  padding: 0.6rem 1.9rem;
+}
+  .category-images {
+   
+  overflow-x:scroll;
+ 
+   flex-wrap:nowrap;
+
+    
+}
+    .category-images img {
+    width: 12%;
+        margin-right:1rem;
+  
+    transition: all 0.3s ease-in-out;
+}
+    h1,h2,h3,h4{
+     font-family: 'Poppins';
+    font-size: 1.6rem;
+    margin: 1rem 0.5rem 0rem 1rem;
+}
+    .dairyproductcontainer,
+.product-container {
+  flex: 0 0 calc((100vw / 4) - 10px);
+   
+    max-height: 20rem;
+   
+}
+    footer .links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-left:6rem;
+}
+    #cart-item-image{
+    width:5rem;
+    height:5rem;
+   
+  
+    margin:1rem 0.7rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+   .cart-section-main{
+   font-size:0.8rem;
+    
+}
+    .cart-heading{
+    font-size:1.3rem;
+    font-weight:700;
+}
+    .cart-feature{
+  
+    font-size:1rem;
+   
+    }
+
+  .cart-total-title{
+   font-size:1rem;
+    font-weight:700;
+     padding-top:1rem;
+   margin:1rem 0.5rem;
+}
+    .cart-total-total{
+    font-size:1rem;
+    font-weight:700;
+  
+}
+    #final-amt{
+     font-size:1.1rem;
+    margin:0% 1%;
+}
+    #checkout-btn{
+    position:absolute;
+    right:15%;
+    font-size:1.2rem;
+    border:none;
+}
+    #rupee-icon{
+        font-size:1rem;
+    }
+}
+
+/* Large Devices (Desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Styles here */
+    html, body {
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    
+    
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media (min-width: 1200px) {
+    /* Styles here */
+    html, body {
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+

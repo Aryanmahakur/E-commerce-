@@ -42,11 +42,11 @@ document.addEventListener("DOMContentLoaded", function () {
     products.forEach((product) => {
         if (product.category === "DairyProduct" && product.display === "mainpage") {
             productcontainer.innerHTML += renderProducts(product);
-        } else if (product.category === "Snacks") {
+        } else if (product.category === "Snacks" && product.display === "mainpage") {
             productcontainer1.innerHTML += renderProducts(product);
-        } else if (product.category === "Chips") {
+        } else if (product.category === "Chips" && product.display === "mainpage") {
             productcontainer2.innerHTML += renderProducts(product);
-        } else if (product.category === "Tea") {
+        } else if (product.category === "Tea" && product.display === "mainpage") {
             productcontainer3.innerHTML += renderProducts(product);
         }
     });
