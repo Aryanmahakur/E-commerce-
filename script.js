@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="cart-item-details">
                     <p class="cart-item-name">${item.name}</p>
                     <p class="quantity">${item.quantity}</p>
-                    <p class="cart-item-price"><i class="fas fa-rupee-sign" id="rupee-icon"></i> ${item.price}</p>
+                    <p class="cart-item-price"><i class="fas fa-rupee-sign" id="rupee-icons"></i> ${item.price}</p>
                 </div>
                 <div class="product-quantity" id="product-quantity">
                     <p class="quantity-decrease" id="quantity-decrease-${item.id}">-</p>
