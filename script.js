@@ -229,4 +229,10 @@ document.querySelectorAll(".sub-banner").forEach((item) => {
         console.log("Selected value:", selectedOptionValue); 
         window.location.href = `product-list.html?category=${selectedOptionValue}`;
     });
-
+    let navigationbar = document.getElementById("navigation-bar-11");
+    document.getElementById("hamburger").addEventListener("click", () => {
+        navigationbar.classList.toggle('active2');
+    });
+    document.getElementById("nav-exit").addEventListener('click',()=>{
+        navigationbar.classList.toggle('active2');
+    })

@@ -88,3 +88,154 @@ margin-left:25%;
     color:brown;
     border: 1px solid brown;
 }
+/* Base Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 575.98px) {
+   html, body {
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+     #product-list-display-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Five columns */
+  
+    
+}
+
+/* Individual product container styling */
+.product-container {
+    max-height: 20rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+    .product-container img {
+   max-width: 50%; /* Adjusted to ensure images fit within container */
+  
+}
+    .name{
+        font-size:0.7rem;
+    }
+    .quantity {
+    font-size: 0.8rem;
+   transform:translatey(0%);
+    color: #666;
+    margin-left:2%;
+   
+}
+    .price {
+    font-size: 1rem;
+ transform:translatey(-0%);
+    color: #333;
+   margin-left:2%;
+  
+}
+   
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+ html, body {
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    #product-list-display-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Five columns */
+  
+    
+}
+
+/* Individual product container styling */
+.product-container {
+    max-height: 20rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+    .product-container img {
+   max-width: 50%; /* Adjusted to ensure images fit within container */
+  
+}
+    .name{
+        font-size:0.7rem;
+    }
+    .quantity {
+    font-size: 0.8rem;
+   transform:translatey(50%);
+    color: #666;
+    margin-left:2%;
+   
+}
+    .price {
+    font-size: 0.9rem;
+ transform:translatey(10%);
+    color: #333;
+   margin-left:1%;
+  
+}
+   
+}
+
+/* Medium Devices (Tablets and Small Desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    html, body {
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+      #product-list-display-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Five columns */
+  
+    
+}
+
+/* Individual product container styling */
+.product-container {
+    max-height: 18rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+    .product-container img {
+   max-width: 50%; /* Adjusted to ensure images fit within container */
+  
+}
+    .name{
+        font-size:0.8rem;
+    }
+    .quantity {
+    font-size: 0.8rem;
+   transform:translatey(0%);
+    color: #666;
+    margin-left:2%;
+   
+}
+    .price {
+    font-size: 1rem;
+ transform:translatey(-0%);
+ font-weight:550;
+   margin-left:2%;
+  
+}
+ 
+/* Large Devices (Desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
