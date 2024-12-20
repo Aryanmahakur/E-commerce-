@@ -236,3 +236,12 @@ document.querySelectorAll(".sub-banner").forEach((item) => {
     document.getElementById("nav-exit").addEventListener('click',()=>{
         navigationbar.classList.toggle('active2');
     })
+    const navLinks = document.querySelectorAll('.nav-active'); 
+    navLinks.forEach(link =>
+         { 
+            link.addEventListener("click", (event) =>
+                 { event.preventDefault(); 
+                const product = link.getAttribute('data-product'); 
+                console.log("Selected product:", product); window.location.href = `product-list.html?category=${product}`; 
+            });
+        });

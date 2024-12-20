@@ -185,7 +185,7 @@ right:0rem;
    
     
     display: block;  /* Ensure anchor elements are block */
-    margin: 1rem 0rem;  /* Margin applied */
+    margin: 2rem 0rem;  /* Margin applied */
    
     text-decoration:none;
     color:black;
@@ -814,337 +814,34 @@ transition: transform 0.3s  ;
 /* Large Devices */
 
 /* Extra Small Devices (Phones) */
-@media (max-width: 575.98px) {
-    /* Styles here */
-    html, body {
+@media(max-width:575px){
+     html, body {
         overflow-x: hidden;
         height: 100%;
         width: 100%;
         margin: 0;
     }
-      #Search {
-          font-size:0.8rem;
-    width: 15rem;
-          margin-left:-5rem;
-          margin-right:1rem;
-   
-}
-    .category {
-    display:none ;
-}
-    #cart-icon {
-  margin-left:rem;
-    padding: 0.6rem 1.9rem;
-   
-}
-    #login-btn {
-  padding: 0.6rem 1.9rem;
-        display:none;
-}
-  .category-images {
-   
-
- 
-   flex-wrap:wrap;
-
-    
-}
-    .category-images img {
-    width: 12%;
-        margin-right:2rem;
-  
-    transition: all 0.3s ease-in-out;
-}
-    h1,h2,h3,h4{
-     font-family: 'Poppins';
-    font-size: 1.2rem;
-    margin: 1rem 0.5rem 0rem 1rem;
-}
-    .dairyproductcontainer,
-.product-container {
-  flex: 0 0 calc((100vw / 4) - 10px);
-   
-    max-height: 20rem;
-   
-}
-    .dairyproductcontainer img,
-.product-container img {
-    width: 65%; /* Adjusted to ensure images fit within container */
-    height: auto; /* Maintain aspect ratio */
-    margin-top:0.5rem;
-    margin-bottom:1rem;
-    margin-left:17%;
-    object-fit: cover; /* Cover the entire container area without distortion */
-}
-
-/* Text Alignment */
-    .price{
-        font-size:0.8rem;
-    }
-.name,
-.quantity,
-.price {
-   
-    position: relative;
-    left: 0.4rem;
-}
-.name{
-     font-family:'poppins';
-}
-
-.name {
-    font-size: 0.8rem;
-  vertical */
-}
-    .add-to-cart {
-  font-size:0.7rem;
-}
-
-
-.quantity {
-    margin: 0.4rem ;
-    margin-left:0;
-    font-size: 0.7rem;
-}
-
-    footer .links {
-    display: flex;
-    justify-content: space-evenly;
-        
-    flex-wrap: nowrap;
-    margin-left:3rem;
-}
-    footer {
-   margin-top:40rem;
-}
-    #cart-item-image{
-    width:5rem;
-    height:5rem;
-   
-  
-    margin:1rem 0.7rem;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-   .cart-section-main{
-   font-size:0.8rem;
-    
-}
-    .cart-heading{
-    font-size:1.3rem;
-    font-weight:700;
-}
-    .cart-feature{
-  
-    font-size:1rem;
-   
-    }
-
-  .cart-total-title{
-   font-size:1rem;
-    font-weight:700;
-     padding-top:1rem;
-   margin:1rem 0.5rem;
-}
-    .cart-total-total{
-    font-size:1rem;
-    font-weight:700;
-  
-}
-    #final-amt{
-     font-size:1.1rem;
-    margin:0% 1%;
-}
-    #checkout-btn{
-    position:absolute;
-    right:15%;
-    font-size:1.2rem;
-    border:none;
-}
-    #rupee-icon{
-        font-size:1rem;
-    }
-    .working-details{
-  flex-direction:column;
-margin-left:15%;
-     
-   
-}
-    .working-details-main{
-    width:70%;
-   border-radius:8px;
-  
-    height:20rem;
-
-       border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-               
-
-    background-color: #fff;
-    border-radius: 8px;
-        margin-top:2rem;
- margin-bottom:1rem;
-transition: transform 0.3s  ;
-}
-.working-details-title-main{
-    text-align:center;
-    margin-top:2rem;
-    margin-bottom:2rem;
-    font-size:2rem;
-}
-    .working-details-subtitle{
-        padding:1rem 0rem 2rem 0rem;
-    }
-       .cart-section-main{
-   font-size:0.rem;
-    
-}
-    .cart-heading{
-    font-size:1.2rem;
-    font-weight:700;
-}
-    .cart-feature{
-  
-    font-size:rem;
-   
-    }
-
-  .cart-total-title{
-   font-size:rem;
-    font-weight:700;
-     padding-top:1rem;
-   margin:1rem 0.5rem;
-}
-    .cart-total-total{
-    font-size:0.9rem;
-    font-weight:700;
-  
-}
-    #final-amt{
-     font-size:0.9rem;
-    margin:0% 1%;
-}
-    #checkout-btn{
-    position:absolute;
-    right:15%;
-    font-size:0.5rem;
-    border:none;
-}
-    #rupee-icon{
-        font-size:0.8rem;
-    }
-    .cart-section-main{
-       overflow-x:hidden;
-    }
-    .cart-feature{
-        display:none;
-        font-size:0.6rem;
-    }
-    #clock-icon{
-    font-size:1rem;
-  
-    margin-top:0.8rem;
-}
-   #cart-item-image{
-    width:3rem;
-    height:3rem;
-   
-  
-    margin:1rem 0.5rem;
-      box-shadow:none;
-}
-    .cart-item-details{
-        font-size:0.6rem;
-        margin-right:0;
-    }
-    .quantity-number{
-        font-size:0.5rem
-    }
-  
-    .quantity{
-         font-size:0.5rem;
-        
-    }
-    .cart-total{
-        transform:translate(-5%);
-    }
-    .product-quantity {
-   width:3rem;
-        height:2rem;
-        border:none;
-  margin-left:40%;
-   
-}
-    .cart-total-total{
-        font-size:0.9rem;
-    }
-    .cart-total{
-        font-size:0.7rem
-    }
-    #receipt-icon{
-        font-size:0.7rem;
-    }
-    #motorcycle-icon{
-        font-size:0.7rem;
-    }
-    #bag-icon{
-        font-size:0.7rem;
-    }
-    .cart-total-total{
-    font-size:0.9rem;
-    font-weight:700;
-    padding-bottom:0.5rem;
-    margin:0rem 1rem;
-}
-    #checkout-btn{
-        font-size:0.9rem
-    }
-    #rupee-icon{
-        margin-left:1rem;
-        font-size:0.9rem;
-    }
-    #rupee-icons{
-        font-size: 0.6rem;
-    
-}
-    #product-quantity{
-       transform:translate(-100%,0%)
-    }
-    
-}
-
-/* Small Devices (Tablets) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-    /* Styles here */
-    html, body {
-        overflow-x: hidden;
-        height: 100%;
-        width: 100%;
-        margin: 0;
-    }
-     .quantity{
-         font-size:0.7rem;
-        
-    }
-   
-    #Search {
+     #Search {
 width: 15rem;
         font-size:0.8rem;
-        margin-right:1rem;
+      margin-left:-1rem;
    
 }
-    .category {
+     .category {
     display:none ;
 }
     #cart-icon {
- font-size:1.2rem;
+ font-size:1.1rem;
     padding: 0.6rem 1.9rem;
         border:none;
-        margin-right:0rem;
+      
+        margin-left:5%;
    
 }
      #hamburger{
     display:block;
-        margin-right:3rem;
+         position:absolute;
+     right:2%;
 }
     #login-btn {
   padding: 0.6rem 1.9rem;
@@ -1152,31 +849,31 @@ width: 15rem;
 }
     #cart-count{
         position:absolute;
-        right:6.1rem;
+        right:7.1%;
         top:0.8rem;
     }
   .category-images {
-   
+    flex: 0 0 calc((100vw / 4) - 10px);
   overflow-x:scroll;
- 
-   flex-wrap:nowrap;
+
+   flex-wrap:wrap;
 
     
 }
     .category-images img {
-    width: 12%;
+    width: 10%;
         margin-right:1rem;
-  
+   flex: 0 0 calc((100vw / 6) - 10px);
     transition: all 0.3s ease-in-out;
 }
     h1,h2,h3,h4{
      font-family: 'Poppins';
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin: 1rem 0.5rem 0rem 1rem;
 }
     .dairyproductcontainer,
 .product-container {
-  flex: 0 0 calc((100vw / 4) - 10px);
+  flex: 0 0 calc((100vw / 3) - 10px);
    
     max-height: 20rem;
    
@@ -1186,7 +883,7 @@ width: 15rem;
     justify-content: space-evenly;
         
     flex-wrap: nowrap;
-    margin-left:3rem;
+    margin-left:1rem;
 }
     footer {
    margin-top:40rem;
@@ -1389,6 +1086,246 @@ transition: transform 0.3s  ;
     
 }
 
+
+
+
+/* Small Devices (Tablets) */
+@media(min-width:550px) and (max-width:767.98px) {
+    html, body {
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+       
+    }
+
+    #Search {
+        width: 15rem;
+        font-size: 0.8rem;
+        margin-left: -1rem;
+    }
+
+    .category {
+        display: none;
+    }
+
+    #cart-icon {
+        font-size: 1.1rem;
+        padding: 0.6rem 1.9rem;
+        border: none;
+        margin-left: 5%;
+    }
+
+    #hamburger {
+        display: block;
+        position: absolute;
+        right: 2%;
+    }
+
+    #login-btn {
+        padding: 0.6rem 1.9rem;
+        display: none;
+    }
+
+    #cart-count {
+        position: absolute;
+        right: 7.1%;
+        top: 0.8rem;
+    }
+
+    .category-images {
+        overflow-x: scroll;
+        flex-wrap: wrap;
+    }
+
+    .category-images img {
+        width: 12%;
+        margin-right: 1rem;
+       
+        transition: all 0.3s ease-in-out;
+         flex: 0 0 calc((100vw / 5) - 10px);
+    }
+
+    h1, h2, h3, h4 {
+        font-family: 'Poppins';
+        font-size: 1.3rem;
+        margin: 1rem 0.5rem 0rem 1rem;
+    }
+
+    .dairyproductcontainer, .product-container {
+        flex: 0 0 calc((100vw / 3) - 10px);
+        max-height: 20rem;
+    }
+
+    footer .links {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        margin-left: 3rem;
+    }
+
+    footer {
+        margin-top: 40rem;
+    }
+
+    #cart-item-image {
+        width: 5rem;
+        height: 5rem;
+        margin: 1rem 0.7rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .cart-section-main {
+        font-size: 0.8rem;
+    }
+
+    .cart-heading {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    .cart-feature {
+        font-size: 1rem;
+    }
+
+    .cart-total-title {
+        font-size: 1rem;
+        font-weight: 700;
+        padding-top: 1rem;
+        margin: 1rem 0.5rem;
+    }
+
+    .cart-total-total {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    #final-amt {
+        font-size: 1.1rem;
+        margin: 0% 1%;
+    }
+
+    #checkout-btn {
+        position: absolute;
+        right: 15%;
+        font-size: 1.2rem;
+        border: none;
+    }
+
+    #rupee-icon {
+        font-size: 1rem;
+    }
+
+    .working-details {
+        flex-direction: column;
+        margin-left: 15%;
+    }
+
+    .working-details-main {
+        width: 70%;
+        border-radius: 8px;
+        height: 20rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        border-radius: 8px;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        transition: transform 0.3s;
+    }
+
+    .working-details-title-main {
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+    }
+
+    .working-details-subtitle {
+        padding: 1rem 0rem 2rem 0rem;
+    }
+
+    #cart-item-image {
+        width: 3rem;
+        height: 3rem;
+        margin: 1rem 0.5rem;
+        box-shadow: none;
+    }
+
+    .cart-item-details {
+        font-size: 0.6rem;
+        margin-right: 0;
+    }
+
+    .quantity-number {
+        font-size: 0.5rem;
+    }
+
+    .quantity {
+        font-size: 0.1rem;
+    }
+
+    .cart-total {
+        transform: translate(-5%);
+    }
+
+    .product-quantity {
+        width: 3rem;
+        height: 2rem;
+        border: none;
+        margin-left: 40%;
+    }
+
+    .cart-total-total {
+        font-size: 0.9rem;
+    }
+
+    #receipt-icon,
+    #motorcycle-icon,
+    #bag-icon {
+        font-size: 0.7rem;
+    }
+
+    .cart-total-total {
+        font-size: 0.9rem;
+        font-weight: 700;
+        padding-bottom: 0.5rem;
+        margin: 0rem 1rem;
+    }
+
+    #checkout-btn {
+        font-size: 0.9rem;
+    }
+
+    #rupee-icon {
+        margin-left: 1rem;
+        font-size: 0.9rem;
+    }
+
+    #rupee-icons {
+        font-size: 0.6rem;
+    }
+
+    #product-quantity {
+        transform: translate(-100%, 0%);
+    }
+
+    .cart-section-main {
+        overflow-x: hidden;
+    }
+
+    .cart-feature {
+        display: none;
+        font-size: 0.6rem;
+    }
+
+    #clock-icon {
+        font-size: 1rem;
+        margin-top: 0.8rem;
+    }
+}
+
+
 /* Medium Devices (Desktops) */
 @media (min-width: 768px) and (max-width: 991.98px) {
     /* Styles here */
@@ -1554,29 +1491,4 @@ transition: transform 0.3s  ;
         font-size: 0.8rem;
     }
 }
-
-/* Large Devices (Desktops) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    /* Styles here */
-    html, body {
-        overflow-x: hidden;
-        height: 100%;
-        width: 100%;
-        margin: 0;
-    }
-    
-    
-}
-
-/* Extra Large Devices (Large Desktops) */
-@media (min-width: 1200px) {
-    /* Styles here */
-    html, body {
-        overflow-x: hidden;
-        height: 100%;
-        width: 100%;
-        margin: 0;
-    }
-}
-
 
