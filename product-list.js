@@ -191,4 +191,5 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("cart-section-main").classList.remove("active");
         console.log("Cart section hidden");
     });
+    
 });

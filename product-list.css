@@ -111,6 +111,9 @@ body {
   
     
 }
+.hamburger{
+    display: block;
+}
 
 /* Individual product container styling */
 .product-container {
@@ -158,6 +161,9 @@ body {
   
     
 }
+.hamburger{
+    display: block;
+}
 
 /* Individual product container styling */
 .product-container {
@@ -199,6 +205,9 @@ body {
         width: 100%;
         margin: 0;
     }
+    .hamburger{
+        display: block;
+    }
       #product-list-display-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Five columns */
@@ -227,6 +236,9 @@ body {
     color: #666;
     margin-left:2%;
    
+}
+.hamburger{
+    display: block;
 }
     .price {
     font-size: 1rem;
