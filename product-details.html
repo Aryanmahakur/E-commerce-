@@ -6,20 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Details</title>
 
+    <!-- External CSS Links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="product-details.css">
 </head>
 
 <body>
+    <!-- Header Section -->
     <header class="header">
         <div class="top-navbar">
             <div class="logo">
                 <p class="logo-text">Blinkit</p>
             </div>
+
+            <!-- Search Form -->
             <form class="location-form">
                 <input type="text" id="Search" name="Search" placeholder="Search for products, brands and more">
-           <div class="category">
+
+                <!-- Category Dropdown -->
+                <div class="category">
                     <select name="category" id="category">
                         <option value="default" class="options">Search By Categories</option>
                         <option value="DairyProduct" class="options">Dairy Product</option>
@@ -34,35 +40,39 @@
                     </select>
                 </div>
             </form>
+
+            <!-- Login & Cart Buttons -->
             <div class="login-cart-btn">
                 <button id="login-btn">Login</button>
                 <div class="cart-btn" id="cart-btnn">
-                    <i class="fas fa-shopping-cart" id="cart-icon"></i> <span class="cart-count"
-                        id="cart-count">0</span>
+                    <i class="fas fa-shopping-cart" id="cart-icon"></i>
+                    <span class="cart-count" id="cart-count">0</span>
                 </div>
                 <i class="hamburger fas fa-bars" id="hamburger"></i>
             </div>
         </div>
     </header>
+
+    <!-- Navigation Bar -->
     <div class="navigation-bar-1" id="navigation-bar-11">
         <i class="fa fa-arrow-left" id="nav-exit"></i>
-
         <ul>
             <li><a href="index.html" id="nav-links" class="nav-active">Home</a></li>
-            <li><a href="options" id="nav-links" class="nav-active" data-product="DairyProduct">Dairy
-                    Product</a></li>
-            <li><a href="options" id="nav-links" class="nav-active" data-product="Tea">Tea & Coffee</a></li>
-            <li><a href="options" id="nav-links" class="nav-active" data-product="Snacks">Biscuits</a></li>
-            <li><a href="options" id="nav-links" class="nav-active" data-product="Chips">Chips</a></li>
-            <li><a href="options" id="nav-links" class="nav-active" data-product="IceCream">Ice Cream</a></li>
-            <li><a href="options" id="nav-links" class="nav-active" data-product="ColdDrink">Cold Drink</a></li>
-            <li><a href="options" id="nav-links" class="nav-active" data-product="PetFood">Pet Food</a></li>
-            <li><a href="options" id="nav-links" class="nav-active" data-product="BodyCare">Body Care</a></li>
-            <li><a href="options" id="nav-links" class="nav-active" data-product="Snacks">Baby Product</a></li>
+            <li><a href="options" id="nav-links" data-product="DairyProduct">Dairy Product</a></li>
+            <li><a href="options" id="nav-links" data-product="Tea">Tea & Coffee</a></li>
+            <li><a href="options" id="nav-links" data-product="Snacks">Biscuits</a></li>
+            <li><a href="options" id="nav-links" data-product="Chips">Chips</a></li>
+            <li><a href="options" id="nav-links" data-product="IceCream">Ice Cream</a></li>
+            <li><a href="options" id="nav-links" data-product="ColdDrink">Cold Drink</a></li>
+            <li><a href="options" id="nav-links" data-product="PetFood">Pet Food</a></li>
+            <li><a href="options" id="nav-links" data-product="BodyCare">Body Care</a></li>
+            <li><a href="options" id="nav-links" data-product="Snacks">Baby Product</a></li>
             <li><a href="options" id="nav-links">Login</a></li>
             <li><a href="options" id="nav-links">Contact us</a></li>
         </ul>
     </div>
+
+    <!-- Cart Section -->
     <section class="cart-section">
         <div class="cart-section-main" id="cart-section-main">
             <div class="exit-cart" id="exit-cart">
@@ -83,12 +93,10 @@
                     <i class="fas fa-receipt" id="receipt-icon"></i> Total<span id="total-price">0</span>
                 </p>
                 <p class="cart-total-delivery-charges">
-                    <i class="fa fa-motorcycle" aria-hidden="true" id="motorcycle-icon"></i> Delivery charges<span
-                        id="total-Delivery-charges">FREE</span>
+                    <i class="fa fa-motorcycle" id="motorcycle-icon"></i> Delivery charges<span id="total-Delivery-charges">FREE</span>
                 </p>
                 <p class="cart-total-handling">
-                    <i class="fa fa-shopping-bag" aria-hidden="true" id="bag-icon"></i> Handling charges<span
-                        id="Handling-charges">0</span>
+                    <i class="fa fa-shopping-bag" id="bag-icon"></i> Handling charges<span id="Handling-charges">0</span>
                 </p>
                 <p class="cart-total-total">Total<span id="final-price">0</span></p>
             </div>
@@ -102,6 +110,7 @@
         </div>
     </section>
 
+    <!-- Product Details Section -->
     <section class="product-details">
         <div class="product-details-container">
             <div class="displayitem">
@@ -109,54 +118,56 @@
                     <img src="" alt="product-image" id="product-image">
                 </div>
                 <div id="sub-images" class="thumbnails"></div>
+
+                <!-- Features Section -->
                 <div class="features">
                     <h2>Why shop from Blinkit?</h2>
-                    <p class="features1"><span class="title">⭐Superfast Delivery</span><br><span class="willwork">Get
-                            your order delivered to your doorstep at the earliest from dark stores near you.</span></p>
-                    <p class="features2"><span class="title">⭐Best Prices & Offers</span><br><span class="willwork">Best
-                            price destination with offers directly from the manufacturers.</span></p>
-                    <p class="features3"><span class="title">⭐Wide Assortment</span><br><span class="willwork">Choose
-                            from 5000+ products across food, personal care, household & other categories.</span></p>
+                    <p class="features1"><span class="title">⭐Superfast Delivery</span><br><span class="willwork">Get your order delivered to your doorstep at the earliest from dark stores near you.</span></p>
+                    <p class="features2"><span class="title">⭐Best Prices & Offers</span><br><span class="willwork">Best price destination with offers directly from the manufacturers.</span></p>
+                    <p class="features3"><span class="title">⭐Wide Assortment</span><br><span class="willwork">Choose from 5000+ products across food, personal care, household & other categories.</span></p>
                 </div>
             </div>
 
+            <!-- Product Description Section -->
             <div class="product-details-description">
                 <p class="product-name" id="product-name"></p>
                 <p class="quantity" id="quantity"></p>
+
+                <!-- Price & Cart Button -->
                 <div class="mrp-cartbtn">
                     <p class="product-price" id="product-price"></p>
                     <button class="add-to-car" id="add-to-cart">Add to Cart</button>
                 </div>
 
+                <p class="product-description" id="product-description"></p>
 
-                <p class="product-description" id="product-description">
-                </p>
+                <!-- Product Details -->
                 <div class="details-of-product">
                     <p class="details-heading" id="details-heading">Details Of Product</p>
                     <p class="brand-heading" id="brand-heading">Brand<span id="selflife-brand"></span></p>
                     <p class="quantity-heading" id="quantity-heading">Quantity<span id="selflife-quantity"></span></p>
                     <p class="selflife-heading" id="selflife-heading">Selflife<span id="selflife-span"></span></p>
-                    <p class="ingredient-heading" id="ingredient-heading">Ingredients<span
-                            id="selflife-ingredients"></span></p>
-                    <p class="keyfeatures-heading" id="keyfeatures-heading">Key Features<span
-                            id="selflife-keyfeatures"></span></p>
-                    <p class="decription-heading" id="description-heading">Description<span
-                            id="selflife-description"></span></p>
+                    <p class="ingredient-heading" id="ingredient-heading">Ingredients<span id="selflife-ingredients"></span></p>
+                    <p class="keyfeatures-heading" id="keyfeatures-heading">Key Features<span id="selflife-keyfeatures"></span></p>
+                    <p class="decription-heading" id="description-heading">Description<span id="selflife-description"></span></p>
                 </div>
             </div>
         </div>
     </section>
 
-
+    <!-- Footer Section -->
     <footer>
         <div class="links">
             <div class="link-container">
+                <!-- Download App Section -->
                 <div class="download-options">
                     <p class="link-header">Download App</p>
                     <div class="download-btns">
                         <i class="fab fa-google-play" id="googleplay"></i>
                         <i class="fab fa-apple" id="apple"></i>
                     </div>
+
+                    <!-- Social Links Section -->
                     <div class="socials-links">
                         <div class="socials">
                             <p class="socials-header">Follow us on</p>
@@ -168,6 +179,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Useful Links Section -->
             <div class="link-container useful-links">
                 <p class="link-header">Useful Links</p>
                 <nav>
@@ -179,6 +192,8 @@
                     </ul>
                 </nav>
             </div>
+
+            <!-- Categories Section -->
             <div class="link-container1">
                 <p class="link-header">Categories</p>
                 <nav>
@@ -195,6 +210,7 @@
         </div>
     </footer>
 
+    <!-- External JS Files -->
     <script src="product-listing.js"></script>
     <script src="product-details.js"></script>
     <script src="script.js"></script>

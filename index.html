@@ -51,211 +51,207 @@
 
         </div>
     </header>
-    
 
-            <div class="navigation-bar-1" id="navigation-bar-11">
-                <i class="fa fa-arrow-left" id="nav-exit"></i>
 
-                <ul>
-                    <li><a href="index.html" id="nav-links" class="nav-active">Home</a></li>
-                    <li><a href="options" id="nav-links" class="nav-active" data-product="DairyProduct">Dairy
-                            Product</a></li>
-                    <li><a href="options" id="nav-links" class="nav-active" data-product="Tea">Tea & Coffee</a></li>
-                    <li><a href="options" id="nav-links" class="nav-active" data-product="Snacks">Biscuits</a></li>
-                    <li><a href="options" id="nav-links" class="nav-active" data-product="Chips">Chips</a></li>
-                    <li><a href="options" id="nav-links" class="nav-active" data-product="IceCream">Ice Cream</a></li>
-                    <li><a href="options" id="nav-links" class="nav-active" data-product="ColdDrink">Cold Drink</a></li>
-                    <li><a href="options" id="nav-links" class="nav-active" data-product="PetFood">Pet Food</a></li>
-                    <li><a href="options" id="nav-links" class="nav-active" data-product="BodyCare">Body Care</a></li>
-                    <li><a href="options" id="nav-links" class="nav-active" data-product="Snacks">Baby Product</a></li>
-                    <li><a href="options" id="nav-links">Login</a></li>
-                    <li><a href="options" id="nav-links">Contact us</a></li>
-                </ul>
+    <div class="navigation-bar-1" id="navigation-bar-11">
+        <i class="fa fa-arrow-left" id="nav-exit"></i>
+
+        <ul>
+            <li><a href="index.html" id="nav-links" class="nav-active">Home</a></li>
+            <li><a href="options" id="nav-links" class="nav-active" data-product="DairyProduct">Dairy
+                    Product</a></li>
+            <li><a href="options" id="nav-links" class="nav-active" data-product="Tea">Tea & Coffee</a></li>
+            <li><a href="options" id="nav-links" class="nav-active" data-product="Snacks">Biscuits</a></li>
+            <li><a href="options" id="nav-links" class="nav-active" data-product="Chips">Chips</a></li>
+            <li><a href="options" id="nav-links" class="nav-active" data-product="IceCream">Ice Cream</a></li>
+            <li><a href="options" id="nav-links" class="nav-active" data-product="ColdDrink">Cold Drink</a></li>
+            <li><a href="options" id="nav-links" class="nav-active" data-product="PetFood">Pet Food</a></li>
+            <li><a href="options" id="nav-links" class="nav-active" data-product="BodyCare">Body Care</a></li>
+            <li><a href="options" id="nav-links" class="nav-active" data-product="Snacks">Baby Product</a></li>
+            <li><a href="options" id="nav-links">Login</a></li>
+            <li><a href="options" id="nav-links">Contact us</a></li>
+        </ul>
+    </div>
+
+    <section class="cart-section">
+        <div class="cart-section-main" id="cart-section-main">
+            <div class="exit-cart" id="exit-cart">
+                <span>
+                    <p class="cart-heading">My Cart</p>
+                </span>
+                <i class="fas fa-times" id="exit-icon"></i>
+            </div>
+            <p class="cart-feature">
+                <i class="fas fa-clock" id="clock-icon"></i> Delivery in 14 minutes
+            </p>
+            <div class="cart-product-container" id="cart-product-container">
+                <!-- Products will be dynamically added here -->
+            </div>
+            <div class="cart-total">
+                <p class="cart-total-title">Bill details</p>
+                <p class="cart-total-price">
+                    <i class="fas fa-receipt" id="receipt-icon"></i> Total<span id="total-price">0</span>
+                </p>
+                <p class="cart-total-delivery-charges">
+                    <i class="fa fa-motorcycle" aria-hidden="true" id="motorcycle-icon"></i> Delivery
+                    charges<span id="total-Delivery-charges">FREE</span>
+                </p>
+                <p class="cart-total-handling">
+                    <i class="fa fa-shopping-bag" aria-hidden="true" id="bag-icon"></i></i> Handling
+                    charges<span id="Handling-charges">0</span>
+                </p>
+                <p class="cart-total-total">Total<span id="final-price">0</span></p>
+            </div>
+            <div class="cart-checkout">
+                <div class="cart-checkout-main">
+                    <i class="fas fa-rupee-sign" id="rupee-icon"></i>
+                    <p id="final-amt">0</p>
+                    <div id="checkout-btn">Checkout</div>
+                </div>
+            </div>
+    </section>
+
+
+    <section class="head-banner">
+
+        <div class="banner">
+            <div class="banner-mainn" id="banner-main">
+                <img src="images/bannerscroll.webp" alt="main-banner" class="banner-imagee">
+                <!-- Duplicate of the last image -->
+                <img src="images/mainbanner1.webp" alt="main-banner" class="banner-imagee">
+                <img src="images/bannerscroll.webp" alt="main-banner" class="banner-imagee">
             </div>
 
-            <section class="cart-section">
-                <div class="cart-section-main" id="cart-section-main">
-                    <div class="exit-cart" id="exit-cart">
-                        <span>
-                            <p class="cart-heading">My Cart</p>
-                        </span>
-                        <i class="fas fa-times" id="exit-icon"></i>
+
+            <div class="banner-sub">
+                <img src="images/display-banner1.avif" alt="sub-banner" class="sub-banner" id="sub-banner"
+                    data-product="medicine">
+                <img src="images/display-banner2.avif" alt="sub-banner" class="sub-banner" id="sub-banner"
+                    data-product="petfood">
+                <img src="images/display-banner3.avif" alt="sub-banner" class="sub-banner" id="sub-banner"
+                    data-product="babyproduct">
+            </div>
+        </div>
+    </section>
+    <section class="login-container-main">
+        <div class="login-container" id="login-container">
+            <div class="login-form">
+                <div class="arrow" id="arrow-exit"> <i class="fas fa-arrow-left"></i></div>
+                <p class="login-logo"><img src="images/LOGOMAIN.png" class="logopng"></p>
+                <p class="login-title">your last minute friend</p>
+                <p class="login-subtitle">Login/Signup</p>
+
+                <input type="number" id="number" name="number" placeholder="Enter your mobile number" required><br>
+
+
+            </div>
+            <button type="submit" id="btn-continue">Continue</button>
+        </div>
+    </section>
+    <section class="products-category">
+        <div class="category-images">
+
+            <img src="images/dairyproduct.avif" alt="" id="dairyproduct" class="productredirect"
+                data-product="DairyProduct">
+            <img src="images/cookies.webp" alt="" id="cookies" class="productredirect" data-product="Snacks">
+            <img src="images/snacks.avif" alt="" id="snacks" class="productredirect" data-product="Chips">
+            <img src="images/ice-creame.webp" alt="" id="ice-creame" class="productredirect" data-product="IceCream">
+            <img src="images/tea-coffee.avif" alt="" id="tea-coffee" class="productredirect" data-product="Tea">
+            <img src="images/babyproduct.webp" alt="" id="babyproduct" class="productredirect"
+                data-product="babyproduct">
+            <img src="images/petfood.avif" alt="" id="petfood" class="productredirect" data-product="petfood">
+            <img src="images/body-care.webp" alt="" id="body-care" class="productredirect" data-product="bodycare">
+            <img src="images/cold drink.avif" alt="" id="cold-drink" class="productredirect" data-product="colddrink">
+
+
+        </div>
+
+    </section>
+    <section class="products">
+        <h1>Dairyproduct</h1>
+        <div class="product-list-container" id="product-list-container"></div>
+        <h2>Tea & Coffee</h2>
+        <div class="product-list-container3" id="product-list-container3"></div>
+        <h3>Biscuits</h3>
+        <div class="product-list-container1" id="product-list-container1"></div>
+        <h4>Chips</h4>
+        <div class="product-list-container2" id="product-list-container2"></div>
+    </section>
+    <p class="working-details-title-main">How it Works</p>
+    <section class="working-details">
+        <div class="working-details-main">
+            <img src="images/place-order.svg" alt="working-details" id="working-details">
+            <p class="working-details-title">How it works</p>
+            <p class="working-details-subtitle">Choose from over 7000 products across groceries, fresh fruits &
+                veggies,
+                meat, pet care, beauty items & more</p>
+        </div>
+        <div class="working-details-main">
+            <img src="images/place-order1.svg" alt="working-details" id="working-details">
+            <p class="working-details-title">Place an order</p>
+            <p class="working-details-subtitle">Add your favourite items to the cart & avail the best offers</p>
+        </div>
+        <div class="working-details-main">
+            <img src="images/enjoy.svg" alt="working-details" id="working-details">
+            <p class="working-details-title">Get free delivery</p>
+            <p class="working-details-subtitle">Experience lighting-fast speed & get all your items delivered in
+                10
+                minutes</p>
+        </div>
+
+    </section>
+    <footer>
+        <div class="links">
+            <div class="link-container">
+                <div class="download-options">
+                    <p class="link-header">Download App</p>
+                    <div class="download-btns">
+                        <i class="fab fa-google-play" id="googleplay"></i>
+                        <i class="fab fa-apple" id="apple"></i>
                     </div>
-                    <p class="cart-feature">
-                        <i class="fas fa-clock" id="clock-icon"></i> Delivery in 14 minutes
-                    </p>
-                    <div class="cart-product-container" id="cart-product-container">
-                        <!-- Products will be dynamically added here -->
-                    </div>
-                    <div class="cart-total">
-                        <p class="cart-total-title">Bill details</p>
-                        <p class="cart-total-price">
-                            <i class="fas fa-receipt" id="receipt-icon"></i> Total<span id="total-price">0</span>
-                        </p>
-                        <p class="cart-total-delivery-charges">
-                            <i class="fa fa-motorcycle" aria-hidden="true" id="motorcycle-icon"></i> Delivery
-                            charges<span id="total-Delivery-charges">FREE</span>
-                        </p>
-                        <p class="cart-total-handling">
-                            <i class="fa fa-shopping-bag" aria-hidden="true" id="bag-icon"></i></i> Handling
-                            charges<span id="Handling-charges">0</span>
-                        </p>
-                        <p class="cart-total-total">Total<span id="final-price">0</span></p>
-                    </div>
-                    <div class="cart-checkout">
-                        <div class="cart-checkout-main">
-                            <i class="fas fa-rupee-sign" id="rupee-icon"></i>
-                            <p id="final-amt">0</p>
-                            <div id="checkout-btn">Checkout</div>
+                    <div class="socials-links">
+                        <div class="socials">
+                            <p class="socials-header">Follow us on</p>
+                            <i class="fab fa-facebook-f icons"></i>
+                            <i class="fab fa-instagram icons"></i>
+                            <i class="fab fa-twitter icons"></i>
+                            <i class="fab fa-youtube icons"></i>
                         </div>
                     </div>
-            </section>
-
-
-            <section class="head-banner">
-
-                <div class="banner">
-                    <div class="banner-mainn" id="banner-main">
-                        <img src="images/bannerscroll.webp" alt="main-banner" class="banner-imagee">
-                        <!-- Duplicate of the last image -->
-                        <img src="images/mainbanner1.webp" alt="main-banner" class="banner-imagee">
-                        <img src="images/bannerscroll.webp" alt="main-banner" class="banner-imagee">
-                    </div>
-
-
-                    <div class="banner-sub">
-                        <img src="images/display-banner1.avif" alt="sub-banner" class="sub-banner" id="sub-banner"
-                            data-product="medicine">
-                        <img src="images/display-banner2.avif" alt="sub-banner" class="sub-banner" id="sub-banner"
-                            data-product="petfood">
-                        <img src="images/display-banner3.avif" alt="sub-banner" class="sub-banner" id="sub-banner"
-                            data-product="babyproduct">
-                    </div>
                 </div>
-            </section>
-            <section class="login-container-main">
-                <div class="login-container" id="login-container">
-                    <div class="login-form">
-                        <div class="arrow" id="arrow-exit"> <i class="fas fa-arrow-left"></i></div>
-                        <p class="login-logo"><img src="images/LOGOMAIN.png" class="logopng"></p>
-                        <p class="login-title">your last minute friend</p>
-                        <p class="login-subtitle">Login/Signup</p>
+            </div>
+            <div class="link-container useful-links">
+                <p class="link-header">Useful Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="helpcare.html">Help</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="link-container1">
+                <p class="link-header">Categories</p>
+                <nav>
+                    <ul>
+                        <li><a href="dairyproduct.html">Dairy Product</a></li>
+                        <li><a href="teaandcoffee.html">Tea & Coffee</a></li>
+                        <li><a href="biscuits.html">Biscuits</a></li>
+                        <li><a href="chips.html">Chips</a></li>
+                        <li><a href="ice-cream.html">Ice Cream</a></li>
+                        <li><a href="colddrink.html">Cold Drink</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
 
-                        <input type="number" id="number" name="number" placeholder="Enter your mobile number"
-                            required><br>
-
-
-                    </div>
-                    <button type="submit" id="btn-continue">Continue</button>
-                </div>
-            </section>
-            <section class="products-category">
-                <div class="category-images">
-
-                    <img src="images/dairyproduct.avif" alt="" id="dairyproduct" class="productredirect"
-                        data-product="DairyProduct">
-                    <img src="images/cookies.webp" alt="" id="cookies" class="productredirect" data-product="Snacks">
-                    <img src="images/snacks.avif" alt="" id="snacks" class="productredirect" data-product="Chips">
-                    <img src="images/ice-creame.webp" alt="" id="ice-creame" class="productredirect"
-                        data-product="IceCream">
-                    <img src="images/tea-coffee.avif" alt="" id="tea-coffee" class="productredirect" data-product="Tea">
-                    <img src="images/babyproduct.webp" alt="" id="babyproduct" class="productredirect"
-                        data-product="babyproduct">
-                    <img src="images/petfood.avif" alt="" id="petfood" class="productredirect" data-product="petfood">
-                    <img src="images/body-care.webp" alt="" id="body-care" class="productredirect"
-                        data-product="bodycare">
-                    <img src="images/cold drink.avif" alt="" id="cold-drink" class="productredirect"
-                        data-product="colddrink">
-
-
-                </div>
-
-            </section>
-            <section class="products">
-                <h1>Dairyproduct</h1>
-                <div class="product-list-container" id="product-list-container"></div>
-                <h2>Tea & Coffee</h2>
-                <div class="product-list-container3" id="product-list-container3"></div>
-                <h3>Biscuits</h3>
-                <div class="product-list-container1" id="product-list-container1"></div>
-                <h4>Chips</h4>
-                <div class="product-list-container2" id="product-list-container2"></div>
-            </section>
-            <p class="working-details-title-main">How it Works</p>
-            <section class="working-details">
-                <div class="working-details-main">
-                    <img src="images/place-order.svg" alt="working-details" id="working-details">
-                    <p class="working-details-title">How it works</p>
-                    <p class="working-details-subtitle">Choose from over 7000 products across groceries, fresh fruits &
-                        veggies,
-                        meat, pet care, beauty items & more</p>
-                </div>
-                <div class="working-details-main">
-                    <img src="images/place-order1.svg" alt="working-details" id="working-details">
-                    <p class="working-details-title">Place an order</p>
-                    <p class="working-details-subtitle">Add your favourite items to the cart & avail the best offers</p>
-                </div>
-                <div class="working-details-main">
-                    <img src="images/enjoy.svg" alt="working-details" id="working-details">
-                    <p class="working-details-title">Get free delivery</p>
-                    <p class="working-details-subtitle">Experience lighting-fast speed & get all your items delivered in
-                        10
-                        minutes</p>
-                </div>
-
-            </section>
-            <footer>
-                <div class="links">
-                    <div class="link-container">
-                        <div class="download-options">
-                            <p class="link-header">Download App</p>
-                            <div class="download-btns">
-                                <i class="fab fa-google-play" id="googleplay"></i>
-                                <i class="fab fa-apple" id="apple"></i>
-                            </div>
-                            <div class="socials-links">
-                                <div class="socials">
-                                    <p class="socials-header">Follow us on</p>
-                                    <i class="fab fa-facebook-f icons"></i>
-                                    <i class="fab fa-instagram icons"></i>
-                                    <i class="fab fa-twitter icons"></i>
-                                    <i class="fab fa-youtube icons"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="link-container useful-links">
-                        <p class="link-header">Useful Links</p>
-                        <nav>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="contactus.html">Contact</a></li>
-                                <li><a href="helpcare.html">Help</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="link-container1">
-                        <p class="link-header">Categories</p>
-                        <nav>
-                            <ul>
-                                <li><a href="dairyproduct.html">Dairy Product</a></li>
-                                <li><a href="teaandcoffee.html">Tea & Coffee</a></li>
-                                <li><a href="biscuits.html">Biscuits</a></li>
-                                <li><a href="chips.html">Chips</a></li>
-                                <li><a href="ice-cream.html">Ice Cream</a></li>
-                                <li><a href="colddrink.html">Cold Drink</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </footer>
-
-            </footer>
-            <script src="product-listing.js"></script>
-            <script src="product-details.js"></script>
-            <script src="product-list.js"></script>
-            <script src="script.js"></script>
+    </footer>
+    <script src="product-listing.js"></script>
+    <script src="product-details.js"></script>
+    <script src="product-list.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

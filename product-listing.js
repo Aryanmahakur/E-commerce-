@@ -1084,43 +1084,44 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   },
 {
   id:"f1",
-  name:"babyproduct",
-  category:"babyproduct",
-  company:"company",
-  price:80,
+  name: "Ice Cream",
+  category: "babyproduct",
+    company: "Amul",
+  price: 80,
   quantity:"100 g",
-  display:"listingpage",
+  display: "listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/1babyproducts1.webp",
   subimage:["images/1babyproducts1.webp","images/1babyproducts2.webp","images/1babyproducts3.webp","images/1babyproducts4.webp"],
 },
 {
   id:"f2",
-  name:"babyproduct",
-  category:"babyproduct",
-  company:"company",
-  price:80,
+  name: "kids product",
+  category: "babyproduct",
+    company: "babycare",
+  price: 80,
   quantity:"100 g",
-  display:"listingpage",
+  display: "listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/2babyproducts1.webp",
   subimage:["images/2babyproducts1.webp","images/2babyproducts2.webp","images/2babyproducts3.webp","images/2babyproducts4.webp"],
 },
 {
   id:"f3",
-  name:"babyproduct",
+  name:"baby product",
   category:"babyproduct",
   company:"company",
   price:80,
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+ 
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/3babyproducts.webp",
   subimage:["images/3babyproducts.webp","images/3babyproducts1.webp","images/3babyproducts2.webp","images/3babyproducts3.webp"],
 },
@@ -1133,8 +1134,9 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
   
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   
   mainimage:"images/4babyproducts.webp",
   subimage:["images/4babyproducts.webp","images/4babyproducts1.webp","images/4babyproducts2.webp","images/4babyproducts3.webp"],
@@ -1148,7 +1150,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   
  
   mainimage:"images/5babyproducts.webp",
@@ -1163,8 +1166,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/6babyproducts.webp",
   subimage:["images/6babyproducts.webp","images/6babyproducts1.webp","images/6babyproducts2.webp","images/6babyproducts3.webp"],
 },
@@ -1177,7 +1180,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   
   mainimage:"images/7babyproducts.webp",
   subimage:["images/7babyproducts.webp","images/7babyproducts1.webp","images/7babyproducts2.webp","images/7babyproducts3.webp"],
@@ -1191,7 +1195,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   
   mainimage:"images/8babyproducts.webp",
   subimage:["images/8babyproducts.webp","images/8babyproducts1.webp","images/8babyproducts2.webp","images/8babyproducts3.webp"],
@@ -1205,8 +1210,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/9babyproducts.webp",
   subimage:["images/9babyproducts.webp","images/9babyproducts1.webp","images/9babyproducts2.webp","images/9babyproducts3.webp"],
 },
@@ -1219,7 +1224,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   
   mainimage:"images/10babyproducts.webp",
   subimage:["images/10babyproducts.webp","images/10babyproducts1.webp","images/10babyproducts2.webp","images/10babyproducts3.webp"],
@@ -1233,7 +1239,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   
   mainimage:"images/11babyproducts.webp",
   subimage:["images/11babyproducts.webp","images/11babyproducts1.webp","images/11babyproducts2.webp","images/11babyproducts3.webp"],
@@ -1247,8 +1254,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/12babyproducts.webp",
   subimage:["images/12babyproducts.webp","images/12babyproducts1.webp","images/12babyproducts2.webp","images/12babyproducts3.webp"],
 },
@@ -1261,7 +1268,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   
   mainimage:"images/13babyproducts.webp",
   subimage:["images/13babyproducts.webp","images/13babyproducts1.webp","images/13babyproducts2.webp","images/13babyproducts3.webp"],
@@ -1275,7 +1283,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   
   mainimage:"images/14babyproducts.webp",
   subimage:["images/14babyproducts.webp","images/14babyproducts1.webp","images/14babyproducts2.webp","images/14babyproducts3.webp"],  
@@ -1289,7 +1298,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   
   mainimage:"images/15babyproducts.webp",
   subimage:["images/15babyproducts.webp","images/15babyproducts1.webp","images/1babyproducts2.webp","images/1babyproducts3.webp"],
@@ -1303,8 +1313,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/1petfood.webp",
     subimage:["images/1petfood.webp","images/1petfood1.webp","images/1petfood2.webp","images/1petfood3.webp"],
 
@@ -1318,8 +1328,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/2petfood.webp",
   subimage:["images/2petfood.webp","images/2petfood1.webp","images/2petfood2.webp","images/2petfood3.webp"],
 
@@ -1333,8 +1343,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/3petfood.webp",
   subimage:["images/3petfood.webp","images/3petfood1.webp","images/3petfood2.webp","images/3petfood3.webp"],
 
@@ -1348,7 +1358,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   
   mainimage:"images/4petfood.webp",
   subimage:["images/4petfood.webp","images/4petfood1.webp","images/4petfood2.webp","images/4petfood3.webp"],
@@ -1363,8 +1374,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/5petfood.webp",
   subimage:["images/5petfood.webp","images/5petfood1.webp","images/5petfood2.webp","images/5petfood3.webp"],
 
@@ -1378,8 +1389,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/6petfood.webp",
   subimage:["images/6petfood.webp","images/6petfood1.webp","images/6petfood2.webp","images/6petfood3.webp"],
 
@@ -1393,8 +1404,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/7petfood.webp",
   subimage:["images/7petfood.webp","images/7petfood1.webp","images/7petfood2.webp","images/7petfood3.webp"],
 
@@ -1408,8 +1419,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/8petfood.webp",
   subimage:["images/8petfood.webp","images/8petfood1.webp","images/8petfood2.webp","images/8petfood3.webp"],
   
@@ -1424,8 +1435,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/9petfood.webp",
   subimage:["images/9petfood.webp","images/9petfood1.webp","images/9petfood2.webp","images/9petfood3.webp"],
 
@@ -1439,8 +1450,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/10petfood.webp",
   subimage:["images/10petfood.webp","images/10petfood1.webp","images/10petfood2.webp","images/10petfood3.webp"],
   
@@ -1455,8 +1466,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/11petfood.webp",
   subimage:["images/11petfood.webp","images/11petfood1.webp","images/11petfood2.webp","images/11petfood3.webp"],
 
@@ -1470,8 +1481,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/12petfood.webp",
   subimage:["images/12petfood.webp","images/12petfood1.webp","images/12petfood2.webp","images/12petfood3.webp"],
 
@@ -1485,8 +1496,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/13petfood.webp",
   subimage:["images/13petfood.webp","images/13petfood1.webp","images/13petfood2.webp","images/13petfood3.webp"],
 
@@ -1500,8 +1511,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/14petfood.webp",
   subimage:["images/14petfood.webp","images/14petfood1.webp","images/14petfood2.webp","images/14petfood3.webp"],
 
@@ -1515,8 +1526,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g",
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/15petfood.webp",
   subimage:["images/15petfood.webp","images/15petfood1.webp","images/15petfood2.webp","images/15petfood3.webp"],
   
@@ -1531,8 +1542,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/1medicine.webp",
   subimage:["images/1medicine.webp","images/1medicine1.webp","images/1medicine2.webp","images/1medicine3.webp"],
 },
@@ -1545,8 +1556,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/2medicine.webp",
   subimage:["images/2medicine.webp","images/2medicine1.webp","images/2medicine2.webp","images/2medicine3.webp"],
 },
@@ -1559,8 +1570,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/3medicine.webp",
   subimage:["images/3medicine.webp","images/3medicine1.webp","images/3medicine2.webp","images/3medicine3.webp"],
 },
@@ -1573,8 +1584,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/4medicine.webp",
   subimage:["images/4medicine.webp","images/4medicine1.webp","images/4medicine2.webp","images/4medicine3.webp"],
 },
@@ -1587,8 +1598,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/5medicine.webp",
   subimage:["images/5medicine.webp","images/5medicine1.webp","images/5medicine2.webp","images/5medicine3.webp"],
 },
@@ -1601,8 +1612,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/6medicine.webp",
   subimage:["images/6medicine.webp","images/6medicine1.webp","images/6medicine2.webp","images/6medicine3.webp"],
 },
@@ -1615,8 +1626,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/7medicine.webp",
   subimage:["images/7medicine.webp","images/7medicine1.webp","images/7medicine2.webp","images/7medicine3.webp"],
 },
@@ -1629,8 +1640,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/8medicine.webp",
   subimage:["images/8medicine.webp","images/8medicine1.webp","images/8medicine2.webp","images/8medicine3.webp"],
 },
@@ -1643,8 +1654,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/9medicine.webp",
   subimage:["images/9medicine.webp","images/9medicine1.webp","images/9medicine2.webp","images/9medicine3.webp"],
 },
@@ -1657,8 +1668,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/10medicine.webp",
   subimage:["images/10medicine.webp","images/10medicine1.webp","images/10medicine2.webp","images/10medicine3.webp"],
 },
@@ -1671,8 +1682,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/11medicine.webp",
   subimage:["images/11medicine.webp","images/11medicine1.webp","images/11medicine2.webp","images/11medicine3.webp"],
 },
@@ -1685,8 +1696,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/12medicine.webp",
   subimage:["images/12medicine.webp","images/12medicine1.webp","images/12medicine2.webp","images/12medicine3.webp"],
 },
@@ -1699,8 +1710,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/13medicine.webp",
   subimage:["images/13medicine.webp","images/13medicine1.webp","images/13medicine2.webp","images/13medicine3.webp"],
 },
@@ -1713,8 +1724,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/14medicine.webp",
   subimage:["images/14medicine.webp","images/14medicine1.webp","images/14medicine2.webp","images/14medicine3.webp"],
 },
@@ -1727,8 +1738,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/15medicine.webp",
   subimage:["images/15medicine.webp","images/15medicine1.webp","images/15medicine2.webp","images/15medicine3.webp"],
 },
@@ -1741,8 +1752,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/1bodycare.webp",
   subimage:["images/1bodycare.webp","images/1bodycare1.webp","images/1bodycare2.webp","images/1bodycare3.webp"],
 },
@@ -1755,8 +1766,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/2bodycare.webp",
   subimage:["images/2bodycare.webp","images/2bodycare1.webp","images/2bodycare2.webp","images/2bodycare3.webp"],
 },
@@ -1769,8 +1780,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/3bodycare.webp",
   subimage:["images/3bodycare.webp","images/3bodycare1.webp","images/3bodycare2.webp","images/3bodycare3.webp"],
 },
@@ -1783,8 +1794,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/4bodycare.webp",
   subimage:["images/4bodycare.webp","images/4bodycare1.webp","images/4bodycare2.webp","images/4bodycare3.webp"],
 },
@@ -1797,8 +1808,9 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+ 
+  madescription:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/5bodycare.webp",
   subimage:["images/5bodycare.webp","images/5bodycare1.webp","images/5bodycare2.webp","images/5bodycare3.webp"],
 },
@@ -1811,8 +1823,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/6bodycare.webp",
   subimage:["images/6bodycare.webp","images/6bodycare1.webp","images/6bodycare2.webp","images/6bodycare3.webp"],
 },
@@ -1825,8 +1837,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/7bodycare.webp",
   subimage:["images/7bodycare.webp","images/7bodycare1.webp","images/7bodycare2.webp","images/7bodycare3.webp"],
 },
@@ -1839,8 +1851,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/8bodycare.webp",
   subimage:["images/8bodycare.webp","images/8bodycare1.webp","images/8bodycare2.webp","images/8bodycare3.webp"],
 },
@@ -1853,8 +1865,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea", 
   mainimage:"images/9bodycare.webp",
   subimage:["images/9bodycare.webp","images/9bodycare1.webp","images/9bodycare2.webp","images/9bodycare3.webp"],
 },
@@ -1867,8 +1879,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/10bodycare.webp",
   subimage:["images/10bodycare.webp","images/10bodycare1.webp","images/10bodycare2.webp","images/10bodycare3.webp"],
 },
@@ -1881,8 +1893,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/11bodycare.webp",
   subimage:["images/11bodycare.webp","images/11bodycare1.webp","images/11bodycare2.webp","images/11bodycare3.webp"],
 },
@@ -1895,8 +1907,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/12bodycare.webp",
   subimage:["images/12bodycare.webp","images/12bodycare1.webp","images/12bodycare2.webp","images/12bodycare3.webp"],
 },
@@ -1909,8 +1921,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/13bodycare.webp",
   subimage:["images/13bodycare.webp","images/13bodycare1.webp","images/13bodycare2.webp","images/13bodycare3.webp"],
 },
@@ -1923,8 +1935,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea", 
   mainimage:"images/14bodycare.webp",
   subimage:["images/14bodycare.webp","images/14bodycare1.webp","images/14bodycare2.webp","images/14bodycare3.webp"],
 },
@@ -1937,8 +1949,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/15bodycare.webp",
   subimage:["images/15bodycare.webp","images/15bodycare1.webp","images/15bodycare2.webp","images/15bodycare3.webp"],
 },
@@ -1951,8 +1963,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/1colddrinks.webp",
   subimage:["images/1colddrinks.webp","images/1colddrinks1.webp","images/1colddrinks2.webp","images/1colddrinks3.webp"],
 },
@@ -1965,8 +1977,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/2colddrinks.webp",
   subimage:["images/2colddrinks.webp","images/2colddrinks1.webp","images/2colddrinks2.webp","images/2colddrinks3.webp"],
 },
@@ -1979,8 +1991,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/3colddrinks.webp",
   subimage:["images/3colddrinks.webp","images/3colddrinks1.webp","images/3colddrinks2.webp","images/3colddrinks3.webp"],  
 },
@@ -1993,8 +2005,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/4colddrinks.webp",
   subimage:["images/4colddrinks.webp","images/4colddrinks1.webp","images/4colddrinks2.webp","images/4colddrinks3.webp"],
 },
@@ -2007,8 +2019,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/5colddrinks.webp",
   subimage:["images/5colddrinks.webp","images/5colddrinks1.webp","images/5colddrinks2.webp","images/5colddrinks3.webp"],
 },
@@ -2021,8 +2033,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/6colddrinks.webp",
   subimage:["images/6colddrinks.webp","images/6colddrinks1.webp","images/6colddrinks2.webp","images/6colddrinks3.webp"],
 },
@@ -2035,8 +2047,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/7colddrinks.webp",
   subimage:["images/7colddrinks.webp","images/7colddrinks1.webp","images/7colddrinks2.webp","images/7colddrinks3.webp"],
 },
@@ -2049,13 +2061,13 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/8colddrinks.webp",
   subimage:["images/8colddrinks.webp","images/8colddrinks1.webp","images/8colddrinks2.webp","images/8colddrinks3.webp"],
 },
 {
-  id:"h9",
+  id:"j9",
   name:"medicine",
   category:"colddrink",
   company:"company",
@@ -2063,8 +2075,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/9colddrinks.webp",
   subimage:["images/9colddrinks.webp","images/9colddrinks1.webp","images/9colddrinks2.webp","images/9colddrinks3.webp"],
 },
@@ -2077,8 +2089,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/10colddrinks.webp",
   subimage:["images/10colddrinks.webp","images/10colddrinks1.webp","images/10colddrinks2.webp","images/10colddrinks3.webp"],  
 },
@@ -2091,8 +2103,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/11colddrinks.webp",
   subimage:["images/11colddrinks.webp","images/11colddrinks1.webp","images/11colddrinks2.webp","images/11colddrinks3.webp"],
 },
@@ -2105,8 +2117,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/12colddrinks.webp",
   subimage:["images/12colddrinks.webp","images/12colddrinks1.webp","images/12colddrinks2.webp","images/12colddrinks3.webp"],
 },
@@ -2119,8 +2131,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/13colddrinks.webp",
   subimage:["images/13colddrinks.webp","images/13colddrinks1.webp","images/13colddrinks2.webp","images/13colddrinks3.webp"],
 },
@@ -2133,8 +2145,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/14colddrinks.webp",
   subimage:["images/14colddrinks.webp","images/14colddrinks1.webp","images/14colddrinks2.webp","images/14colddrinks3.webp"],
 },
@@ -2147,8 +2159,8 @@ subimage: ["images/icecreame1.webp", "images/icecreame2.webp", "images/icecreame
   quantity:"100 g", 
   display:"listingpage",
   selflife:"12 months",
-  description:"description",
-  
+  description:"Made from the freshest of cream, the Amul butter has wonderful taste which is delicate and slightly salty. This finely processed butter is natural, pure and tastes best with toasts and sandwiches. Has a natural and pure formulation that gives a great taste. Made from fresh cream that has a delicious flavour. Spread it over toast or cook your curries in it for a heavenly taste.",
+  ingredient:"Black Tea",
   mainimage:"images/15colddrinks.webp",
   subimage:["images/15colddrinks.webp","images/15colddrinks1.webp","images/15colddrinks2.webp","images/15colddrinks3.webp"],
 },
