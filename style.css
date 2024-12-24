@@ -764,7 +764,6 @@ footer .socials i.fab:hover {
     background-color: #0056b3;
 }
 
-/* Responsive Styles */
 @media (max-width: 575px) {
     .cart-section {
         padding: 0.5rem;
