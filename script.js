@@ -197,14 +197,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Toggle cart visibility
     document.getElementById("cart-btn").addEventListener("click", () => {
-        cartSectionMain.classList.toggle("active");
+        document.getElementById("cart-section-main").classList.toggle("active");
         console.log("Cart section toggled");
     });
 
     document.getElementById("exit-cart").addEventListener("click", () => {
-        cartSectionMain.classList.remove("active");
+        document.getElementById("cart-section-main").classList.remove("active");
         console.log("Cart section hidden");
     });
+   
+   
+   
 });
 // for product listing with diffrent categories
 document.querySelectorAll(".productredirect").forEach((product) => {
