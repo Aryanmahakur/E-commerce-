@@ -74,20 +74,7 @@ margin-left:25%;
     background-color:#faf8f7;
     color:rgb(176, 113, 65);
 }
-.sortbtn{
-    display:flex;
-    gap:1%;
-    margin:1rem;
-}
-.sortbtn-main-p{
-    margin-top:0.3%;
-}
-#sort{
-    width:10rem;
-    height:1.8rem;
-    color:brown;
-    border: 1px solid brown;
-}
+
 /* Base Styles */
 body {
     margin: 0;

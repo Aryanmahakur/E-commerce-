@@ -95,11 +95,7 @@
     margin-bottom: 1rem;
 }
 
-.quantity {
-    font-size: 1rem;
-    margin-bottom: 2%;
-    transform: translate(-2%, -300%);
-}
+
 
 .mrp-cartbtn {
     display: flex;
@@ -259,9 +255,12 @@ footer {
         flex-direction: column;
     }
 
-    .quantity {
-        margin-top: 1rem;
-    }
+  .quantity{
+      transform:translate(-10%,-350%);
+  }
+    .cart-item-price{
+      transform:translate(-10%,-250%);
+  }
 
     .details-of-product {
         max-width: 100%;
@@ -330,10 +329,7 @@ footer {
      #add-to-cart {
         transform: translateY(170%);
     }
-    .quantity {
-        margin-top: 3rem;
-    }
-
+   
     .details-of-product {
         max-width: 100%;
         margin-left: 0;
