@@ -120,20 +120,26 @@ document.addEventListener("DOMContentLoaded", function () {
             let cartItem = document.createElement("div");
             cartItem.classList.add("cart-item");
             cartItem.innerHTML = `
-                <div class="remove-item-all" id="remove-item-${item.id}" data-id="${item.id}">
-                    <i class="fas fa-times" id="exit-icon-all"></i>
-                </div>
-                <img src="${item.mainimage}" alt="mainimage" id="cart-item-image">
-                <div class="cart-item-details">
-                    <p class="cart-item-name">${item.name}</p>
-                    <p class="quantity">${item.quantity}</p>
-                    <p class="cart-item-price"><i class="fas fa-rupee-sign" id="rupee-icons"></i> ${item.price}</p>
-                </div>
-                <div class="product-quantity" id="product-quantity">
-                    <p class="quantity-decrease" id="quantity-decrease-${item.id}">-</p>
-                    <p class="quantity-number" id="quantity-number-${item.id}">1</p>
-                    <p class="quantity-increase" id="quantity-increase-${item.id}">+</p>
-                </div>
+               <div class="cart-item" id="cart-item-${item.id}">
+    <div class="remove-item-all" id="remove-item-${item.id}" data-id="${item.id}">
+        <i class="fas fa-times" id="exit-icon-all"></i>
+    </div>
+    <img src="${item.mainimage}" alt="mainimage" id="cart-item-image">
+    <div class="cart-item-details">
+        <p class="cart-item-name">${item.name}</p>
+        <p class="quantity">Quantity: ${item.quantity}</p>
+        <p class="cart-item-price">
+            <i class="fas fa-rupee-sign" id="rupee-icons"></i>
+            <span id="cart-item-price2">${item.price}</span>
+        </p>
+    </div>
+    <div class="product-quantity" id="product-quantity">
+        <p class="quantity-decrease" id="quantity-decrease-${item.id}">-</p>
+        <p class="quantity-number" id="quantity-number-${item.id}">1</p>
+        <p class="quantity-increase" id="quantity-increase-${item.id}">+</p>
+    </div>
+</div>
+
             `;
             
             cartContainer.appendChild(cartItem);
