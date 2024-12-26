@@ -202,16 +202,31 @@ document.addEventListener("DOMContentLoaded", function () {
     displayCartItems();
 
     // Toggle cart visibility
-    document.getElementById("cart-btn").addEventListener("click", () => {
-        document.getElementById("cart-section-main").classList.toggle("active");
-        console.log("Cart section toggled");
+    
+        console.log("DOM fully loaded and parsed");
+        
+        document.getElementById("cart-btn").addEventListener("click", () => {
+            document.getElementById("cart-section-main").classList.toggle("active");
+            console.log("Cart section toggled");
+        });
+    
+        document.getElementById("exit-cart").addEventListener("click", () => {
+            document.getElementById("cart-section-main").classList.remove("active");
+            console.log("Cart section hidden");
+        });
+    
+    
+    
+    document.getElementById("hamburger").addEventListener("click", () => {
+        document.getElementById("navigation-bar-11").classList.toggle("active2");
+        console.log("Navigation toggled");
     });
-
-    document.getElementById("exit-cart").addEventListener("click", () => {
-        document.getElementById("cart-section-main").classList.remove("active");
-        console.log("Cart section hidden");
+    
+    document.getElementById("nav-exit").addEventListener("click", () => {
+        document.getElementById("navigation-bar-11").classList.remove("active2");
+        console.log("Navigation hidden");
     });
-   
+    
    
    
 });
