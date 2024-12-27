@@ -1,11 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
+    // Get the container for displaying cart products
     let cartContainer = document.getElementById("cart-product-container");
+    // Get the element for displaying total price
     let totalprice = document.getElementById("total-price");
+    // Get the element for displaying handling charges
     let handlingcharges = document.getElementById("Handling-charges");
+    // Get the element for displaying final price
     let finalprice = document.getElementById("final-price");
+    // Get the element for displaying cart count
     let cartcount = document.getElementById("cart-count");
-    
-    // Function to get URL parameter
+
+    // Function to get URL parameter by name
     function geturlparameter(name) {
         return new URLSearchParams(window.location.search).get(name);
     }
@@ -17,34 +22,35 @@ document.addEventListener("DOMContentLoaded", function () {
     // Find the product with the matching 'id'
     const product = products.find(p => p.id === productsid);
     console.log("product id: ", product);
-       
+
+    // If product is found, display its details
     if (product) {
         document.getElementById("product-image").src = product.mainimage;
         document.getElementById("product-name").textContent = product.name;
         document.getElementById("product-price").textContent = `MRP ${product.price}`;
-        //document.getElementById("product-description").textContent = product.description;
         document.getElementById("quantity").textContent = product.quantity;
         document.getElementById("selflife-span").textContent = product.selflife;
-       
         document.getElementById("selflife-description").textContent = product.description;
         document.getElementById("selflife-brand").textContent = product.company;
         document.getElementById("selflife-quantity").textContent = product.quantity;
+
         // Check and hide the ingredients section if it is empty or undefined
         if (!product.ingredient) {
             document.getElementById("ingredient-heading").style.display = 'none';
         } else {
             document.getElementById("selflife-ingredients").textContent = product.ingredient;
         }
-        
+
+        // Check and hide the key features section if it is empty or undefined
         if (!product.keyfeature) {
             document.getElementById("keyfeatures-heading").style.display = 'none';
         } else {
             document.getElementById("selflife-keyfeatures").textContent = product.keyfeature;
         }
-        
 
+        // Display subimages for the product
         let subimages = document.getElementById("sub-images");
-      console.log("subimage:" + product.subimage);subimages;
+        console.log("subimage:" + product.subimage);
         product.subimage.forEach((image, index) => {
             const imgelement = document.createElement("img");
             imgelement.src = image;
@@ -54,6 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
             subimages.appendChild(imgelement);
         });
 
+        // Allow changing main image by clicking on subimages
         const mainimage = document.getElementById("product-image");
         const subimagesa = document.querySelectorAll("#sub-images .sub-image");
 
@@ -123,6 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             cartContainer.appendChild(cartItem);
 
+            // Event listener for decreasing quantity
             document.getElementById(`quantity-decrease-${item.id}`).addEventListener('click', () => {
                 let quantityElement = document.getElementById(`quantity-number-${item.id}`);
                 if (quantityElement.innerHTML > 1) {
@@ -130,6 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             });
 
+            // Event listener for increasing quantity
             document.getElementById(`quantity-increase-${item.id}`).addEventListener('click', () => {
                 let quantityElement = document.getElementById(`quantity-number-${item.id}`);
                 if (quantityElement.innerHTML < 10) {
@@ -137,13 +146,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             });
 
+            // Event listener for removing an item from the cart
             document.getElementById(`remove-item-${item.id}`).addEventListener('click', () => {
                 let productid = item.id;
                 let cartdata = JSON.parse(localStorage.getItem("cart")) || [];
 
+                // Remove the item with the matching id from the cart data
                 cartdata = cartdata.filter(cartItem => cartItem.id !== productid);
                 localStorage.setItem("cart", JSON.stringify(cartdata));
 
+                // Remove the item from the cart display
                 document.getElementById(`remove-item-${item.id}`).closest('.cart-item').remove();
 
                 cartcountcontainer--;
@@ -173,5 +185,4 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("cart-section-main").classList.remove("active");
         console.log("Cart section hidden");
     });
-   
 });

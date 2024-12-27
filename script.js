@@ -210,20 +210,6 @@ document.addEventListener("DOMContentLoaded", function () {
             console.log("Cart section hidden");
         });
     
-    
-    
-    document.getElementById("hamburger").addEventListener("click", () => {
-        document.getElementById("navigation-bar-11").classList.toggle("active2");
-        console.log("Navigation toggled");
-    });
-    
-    document.getElementById("nav-exit").addEventListener("click", () => {
-        document.getElementById("navigation-bar-11").classList.remove("active2");
-        console.log("Navigation hidden");
-    });
-    
-   
-   
 });
 // for product listing with diffrent categories
 document.querySelectorAll(".productredirect").forEach((product) => {
@@ -242,25 +228,47 @@ document.querySelectorAll(".sub-banner").forEach((item) => {
 });
 
 
-     const selectElement = document.querySelector("#category"); 
-     selectElement.addEventListener("change", () => { 
-        const selectedOptionValue = selectElement.value; 
-        console.log("Selected value:", selectedOptionValue); 
-        window.location.href = `product-list.html?category=${selectedOptionValue}`;
+    // Select the category dropdown element
+const selectElement = document.querySelector("#category");
+
+// Add an event listener for the change event on the category dropdown
+selectElement.addEventListener("change", () => {
+    // Get the value of the selected option
+    const selectedOptionValue = selectElement.value;
+    console.log("Selected value:", selectedOptionValue);
+    // Redirect to the product list page with the selected category as a query parameter
+    window.location.href = `product-list.html?category=${selectedOptionValue}`;
+});
+
+// Get the navigation bar element
+let navigationbar = document.getElementById("navigation-bar-11");
+
+// Add an event listener for the click event on the hamburger menu icon
+document.getElementById("hamburger").addEventListener("click", () => {
+    // Toggle the 'active2' class on the navigation bar to show/hide it
+    navigationbar.classList.toggle('active2');
+});
+
+// Add an event listener for the click event on the navigation exit icon
+document.getElementById("nav-exit").addEventListener('click', () => {
+    // Toggle the 'active2' class on the navigation bar to show/hide it
+    navigationbar.classList.toggle('active2');
+});
+
+// Select all navigation links with the class 'nav-link'
+const navLinks = document.querySelectorAll('.nav-link');
+
+// Add an event listener for the click event on each navigation link
+navLinks.forEach(link => {
+    link.addEventListener("click", (event) => {
+        // Prevent the default action of the link (prevent page reload)
+        event.preventDefault();
+        // Get the value of the data-product attribute of the clicked link
+        const product = link.getAttribute('data-product');
+        if (product) {
+            console.log("Selected product:", product);
+            // Redirect to the product list page with the selected product category as a query parameter
+            window.location.href = `product-list.html?category=${product}`;
+        }
     });
-    let navigationbar = document.getElementById("navigation-bar-11");
-    document.getElementById("hamburger").addEventListener("click", () => {
-        navigationbar.classList.toggle('active2');
-    });
-    document.getElementById("nav-exit").addEventListener('click',()=>{
-        navigationbar.classList.toggle('active2');
-    })
-    const navLinks = document.querySelectorAll('.nav-active'); 
-    navLinks.forEach(link =>
-         { 
-            link.addEventListener("click", (event) =>
-                 { event.preventDefault(); 
-                const product = link.getAttribute('data-product'); 
-                console.log("Selected product:", product); window.location.href = `product-list.html?category=${product}`; 
-            });
-        });
+});
