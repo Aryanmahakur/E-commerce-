@@ -14,29 +14,37 @@ document.addEventListener("DOMContentLoaded", function () {
     let finalprice = document.getElementById("final-price");
     let cartcount = document.getElementById("cart-count");
 
-    // Event listener for login
-    loginbtn.addEventListener("click", () => {
-        logincontainer.style.display = "block";
-    });
-    arrowexit.addEventListener("click", () => {
-        logincontainer.style.display = "none";
-    });
+ // Event listener for login
+loginbtn.addEventListener("click", () => {
+    console.log("Login button clicked");  // Debug
+    logincontainer.style.display = "block";
+    console.log("Login container displayed");  // Debug
+});
 
-    // Bill counter
-    let totalproductprice = 0;
-    let cartcountcontainer = 0;
+arrowexit.addEventListener("click", () => {
+    console.log("Arrow exit clicked");  // Debug
+    logincontainer.style.display = "none";
+    console.log("Login container hidden");  // Debug
+});
 
-    // Function to render products
-    function renderProducts(product) {
-        return `
-        <div class="product-container" id="${product.id}">
-            <img src="${product.mainimage}" alt="mainimages">
-            <p class="name">${product.name}</p>
-            <p class="quantity">${product.quantity}</p>
-            <p class="price">₹ ${product.price}</p>
-            <button class="add-to-cart">Add to Cart</button>
-        </div>`;
-    }
+// Bill counter
+let totalproductprice = 0;
+let cartcountcontainer = 0;
+console.log(`Initial total product price: ${totalproductprice}`);  // Debug
+console.log(`Initial cart count: ${cartcountcontainer}`);  // Debug
+
+// Function to render products
+function renderProducts(product) {
+    console.log(`Rendering product: ${product.name}`);  // Debug
+    return `
+    <div class="product-container" id="${product.id}">
+        <img src="${product.mainimage}" alt="mainimages">
+        <p class="name">${product.name}</p>
+        <p class="quantity">${product.quantity}</p>
+        <p class="price">₹ ${product.price}</p>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>`;
+}
 
     // Using a loop that will bring data from products array
     products.forEach((product) => {
